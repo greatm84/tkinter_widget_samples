@@ -11,6 +11,36 @@ watch_tag_and_pairs = [
     ['AnboxWebStreamViewModel', ['onResume', 'onPause']]
 ]
 
+# TODO filter
+
+class Filter:
+    tag = ""
+    findOrs = []  # find or filter
+    findAnds = []  # find and filter
+    removeOrs = []  # remove or filter
+    removeAnds = []  # remove and filter
+
+    def __int__(self, tag, find_ors=None, find_ands=None, remove_ors=None, remove_ands=None):
+        if remove_ands is None:
+            remove_ands = []
+        if remove_ors is None:
+            remove_ors = []
+        if find_ands is None:
+            find_ands = []
+        if find_ors is None:
+            find_ors = []
+        self.tag = tag
+        self.findOrs = find_ors
+        self.findAnds = find_ands
+        self.removeOrs = remove_ors
+        self.removeAnds = remove_ands
+
+
+# filter_pairs = [
+#     Filter(tag="GetSampleCodeActivityListTask", find_ors=['TRIGGERED', 'SUCCESS +', 'ERROR']),
+#     Filter(tag="")
+# ]
+
 
 def log_parser(line: str):
     for watch_task in watch_task_list:
@@ -29,6 +59,6 @@ def log_parser(line: str):
 
 with open(app_log_path, 'r', encoding="UTF-8") as f:
     i = 0
-    for line in f:
-        log_parser(line)
+    for file_line in f:
+        log_parser(file_line)
         i = i + 1
