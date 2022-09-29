@@ -5,8 +5,10 @@ watch_task_list = [
     ['GetGameItemListTask', ['TRIGGERED', 'SUCCESS +', 'ERROR']]
 ]
 
-watch_things = [
-
+# first tag, second pair
+watch_tag_and_pairs = [
+    ['connection', ['connection: start CloudGamePlayer', 'connection: disconnectClient']],
+    ['AnboxWebStreamViewModel', ['onResume', 'onPause']]
 ]
 
 
@@ -16,7 +18,13 @@ def log_parser(line: str):
             for status in watch_task[1]:
                 if status in line:
                     print(watch_task[0] + " : " + status)
-                    return
+                    break
+
+    for watch_pair in watch_tag_and_pairs:
+        if watch_pair[1][0] in line:
+            print(watch_pair[0] + " begin")
+        elif watch_pair[1][1] in line:
+            print(watch_pair[0] + " end")
 
 
 with open(app_log_path, 'r', encoding="UTF-8") as f:
