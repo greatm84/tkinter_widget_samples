@@ -1,0 +1,975 @@
+[18077 09-29T13:13:17.698 11414 11463 I : [(LoggerInitializer.kt:16):create] Init LoggerInitializer
+, 18078 09-29T13:13:17.780 11414 11463 D : [(MainActivity.kt:15):onCreate] onCreate
+, 18079 09-29T13:13:18.001 11414 11463 D : [(UseCase.kt:22):sendEvent] sendEvent : kotlin.Unit
+, 18080 09-29T13:13:18.014 11414 11463 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=kotlin.Unit)
+, 18081 09-29T13:13:18.150 11414 11463 D : [(UseCase.kt:47):invokeSuspend] GetSampleCodeActivityListTask[9215F76] START
+, 18082 09-29T13:13:18.196 11414 11463 D : [(UseCase.kt:40):invokeSuspend] GetSampleCodeActivityListTask[9215F76] TRIGGERED by kotlin.Unit
+, 18083 09-29T13:13:18.212 11414 11463 D : [(UseCase.kt:55):invokeSuspend] GetSampleCodeActivityListTask[9215F76] LOADING
+, 18084 09-29T13:13:18.262 11414 11463 D : [(UseCase.kt:51):invokeSuspend] GetSampleCodeActivityListTask[9215F76] SUCCESS ++++++++++++++++++++
+, 18085 09-29T13:13:18.277 11414 11463 D : [(UseCase.kt:69):printData] GetSampleCodeActivityListTask[9215F76] List Size : 4
+, 18086 09-29T13:13:18.312 11414 11463 D : [(UseCase.kt:70):printData] GetSampleCodeActivityListTask[9215F76] (Demo, Intent { cmp=com.samsung.android.game.cloudgame/.ui.gameList.GameListActivity })
+, 18087 09-29T13:13:18.329 11414 11463 D : [(UseCase.kt:70):printData] GetSampleCodeActivityListTask[9215F76] (Anbox Web, Intent { cmp=com.samsung.android.game.cloudgame/.ui.anbox.AnboxWebActivity })
+, 18088 09-29T13:13:18.344 11414 11463 D : [(UseCase.kt:70):printData] GetSampleCodeActivityListTask[9215F76] (TestSettingActivity, Intent { cmp=com.samsung.android.game.cloudgame/.ui.test.TestSettingActivity })
+, 18089 09-29T13:13:18.361 11414 11463 D : [(UseCase.kt:70):printData] GetSampleCodeActivityListTask[9215F76] (LogFilter, Intent { cmp=com.samsung.android.game.cloudgame/.log.ui.LogActivity })
+, 18090 09-29T13:13:18.375 11414 11463 D : [(UseCase.kt:53):invokeSuspend] GetSampleCodeActivityListTask[9215F76] SUCCESS --------------------
+, 18091 09-29T13:13:20.944 11414 11463 D : [(UseCase.kt:22):sendEvent] sendEvent : kotlin.Unit
+, 18092 09-29T13:13:20.956 11414 11463 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=kotlin.Unit)
+, 18093 09-29T13:13:20.992 11414 11463 D : [(UseCase.kt:47):invokeSuspend] GetGameItemListTask[A10DACA] START
+, 18094 09-29T13:13:21.021 11414 11463 D : [(UseCase.kt:40):invokeSuspend] GetGameItemListTask[A10DACA] TRIGGERED by kotlin.Unit
+, 18095 09-29T13:13:21.072 11414 11463 D : [(UseCase.kt:55):invokeSuspend] GetGameItemListTask[A10DACA] LOADING
+, 18096 09-29T13:13:21.614 11414 11463 D : [(UseCase.kt:51):invokeSuspend] GetGameItemListTask[A10DACA] SUCCESS ++++++++++++++++++++
+, 18097 09-29T13:13:21.631 11414 11463 D : [(UseCase.kt:69):printData] GetGameItemListTask[A10DACA] List Size : 6
+, 18098 09-29T13:13:21.647 11414 11463 D : [(UseCase.kt:70):printData] GetGameItemListTask[A10DACA] GameItem(id=com.chucklefish.stardewvalleysamsung, title=Stardew Vally, iconUrl=https://img.samsungapps.com/content/q93y5jw1vh/2019/0311/IconImage_20190311163914624.png, screenshotUrl=https://play-lh.googleusercontent.com/9uy1ZwSwrhXDrIXQMySQgOgoMU8T3oSjf85T68_HDLtTuc6iqDPSYVZ5D6Vysg-D9DY=w2560-h1440-rw)
+, 18099 09-29T13:13:21.665 11414 11463 D : [(UseCase.kt:70):printData] GetGameItemListTask[A10DACA] GameItem(id=com.igg.samsung.lordsmobile, title=Lords Mobile, iconUrl=https://play-lh.googleusercontent.com/ncXkkngg-Tq5QRtKV-qyIF_ZMQJU1bQDa-0ZXePgH_zF0raIMPNDr6TYRCBiqLXmcYU=s48-rw, screenshotUrl=https://play-lh.googleusercontent.com/cfYwQ_hvwLy-k_tvXD9nS5Wqt2qnaE6pN3UDryHMyIGYK93LpWGmQaINVIUL04f9FLk=w526-h296-rw)
+, 18100 09-29T13:13:21.683 11414 11463 D : [(UseCase.kt:70):printData] GetGameItemListTask[A10DACA] GameItem(id=com.miHoYo.bh3korea.samsung, title=Honkai Impact 3rd, iconUrl=https://play-lh.googleusercontent.com/MnI36M6LJ11u5jmB9lSwobw1_6HbhG8ZCrASaQKU0XHuC1FhGza7qQ4DlRe_48Ds3Uo=s48-rw, screenshotUrl=https://play-lh.googleusercontent.com/fokzB2eYYvCCcPZ3iZZT_h2oFxP5XbdEfevYQ-7c2XBoyKmzOQ5GluAetaIh6KFgGWI=w526-h296-rw)
+, 18101 09-29T13:13:21.702 11414 11463 D : [(UseCase.kt:70):printData] GetGameItemListTask[A10DACA] GameItem(id=com.korea.lmzh.samsung, title=데몬헌터-Demon Hunter, iconUrl=https://play-lh.googleusercontent.com/rRxaAMyVb-njIoLLbU_bPh_D_6v72n0teNbkgeikoaZexgUUttE-foTE8bMYcii1Pw=s180-rw, screenshotUrl=https://play-lh.googleusercontent.com/-BbRUkTOYHHTkljDvwQigZetYbxYVpYFwa52FxwhJslkJKYOE_Lf1pbjZjDgxOhrHg=w720-h310-rw)
+, 18102 09-29T13:13:21.723 11414 11463 D : [(UseCase.kt:70):printData] GetGameItemListTask[A10DACA] GameItem(id=com.YoStarKR.Samsung.Arknights, title=명일방주, iconUrl=https://play-lh.googleusercontent.com/CV04ek0EGV3IGD9iZDPcMEIKlYKW30p7Gia4qIjdiXk8_XkzmKUvgjznxZ0WneN6dNg=w240-h480-rw, screenshotUrl=https://play-lh.googleusercontent.com/JYK032H4j1db6y2UBJK2CTMQUccXwvJ7h8H98Ea_3KO8lBWZmLxHnHY-PmeuUTkN5Q=w526-h296-rw)
+, 18103 09-29T13:13:21.742 11414 11463 D : [(UseCase.kt:70):printData] GetGameItemListTask[A10DACA] GameItem(id=com.samsung.android.sdk.iap.v6.sample1, title=IAP SAMPLE APP, iconUrl=https://i.pinimg.com/originals/b3/d9/10/b3d910b91583dc1f4e19727df826adb2.png, screenshotUrl=https://img.us.news.samsung.com/us/wp-content/uploads/2020/10/30094221/Galaxy-Store-Goes-All-in-for-Gaming-2.jpg)
+, 18104 09-29T13:13:21.760 11414 11463 D : [(UseCase.kt:53):invokeSuspend] GetGameItemListTask[A10DACA] SUCCESS --------------------
+, 18105 09-29T13:13:25.889 11414 11463 D : [(UseCase.kt:22):sendEvent] sendEvent : kotlin.Unit
+, 18106 09-29T13:13:25.913 11414 11463 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=kotlin.Unit)
+, 18107 09-29T13:13:25.931 11414 11463 D : [(AnboxWebStreamViewModel.kt:670):observeConnectionState] connection: observeNetworkState
+, 18108 09-29T13:13:25.949 11414 11463 D : [(AnboxWebStreamViewModel.kt:674):emit] connection: networkState: ConnectionState(internetConnectionState=com.samsung.android.game.cloudgame.usecase.model.Resource$Loading@1377451, streamConnectionState=false, controlServerConnectionState=false)
+, 18109 09-29T13:13:25.970 11414 11463 D : [(UseCase.kt:47):invokeSuspend] GetConnectionStateTask[BA7E578] START
+, 18110 09-29T13:13:25.990 11414 11463 D : [(UseCase.kt:40):invokeSuspend] GetConnectionStateTask[BA7E578] TRIGGERED by kotlin.Unit
+, 18111 09-29T13:13:26.008 11414 11463 D : [(UseCase.kt:55):invokeSuspend] GetConnectionStateTask[BA7E578] LOADING
+, 18112 09-29T13:13:26.036 11414 11463 D : [(AnboxWebStreamViewModel.kt:142):invokeSuspend] connection: connectionState: ConnectionState(internetConnectionState=com.samsung.android.game.cloudgame.usecase.model.Resource$Loading@1377451, streamConnectionState=false, controlServerConnectionState=false)
+, 18113 09-29T13:13:26.080 11414 11463 E : [(GetConnectionStateTask.kt:38):onAvailable] The default network is now: 133
+, 18114 09-29T13:13:26.116 11414 11463 E : [(GetConnectionStateTask.kt:53):onCapabilitiesChanged] The default network changed capabilities: [ Transports: CELLULAR Capabilities: SUPL&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> UnderlyingNetworks: Null]
+, 18115 09-29T13:13:26.160 11414 11463 D : [(GetConnectionStateTask.kt:58):onCapabilitiesChanged] result : ChangedWithAvailable
+, 18116 09-29T13:13:26.187 11414 11463 E : [(GetConnectionStateTask.kt:64):onLinkPropertiesChanged] The default network changed link properties: {InterfaceName: rmnet1 LinkAddresses: [ 10.196.92.98/24 ] DnsAddresses: [ /172.19.140.7,/172.25.227.7 ] Domains: null MTU: 1440 TcpBufferSizes: 4096,6291456,12582912,4096,1048576,2097152 Routes: [ 0.0.0.0/0 -> 10.196.92.1 rmnet1 mtu 1440,10.196.92.0/24 -> 0.0.0.0 rmnet1 mtu 0 ]}
+, 18117 09-29T13:13:26.221 11414 11463 D : [(AnboxWebStreamViewModel.kt:547):getCloudGameInfoWithIntent] connection: getCloudGameInfoWithIntent: null
+, 18118 09-29T13:13:26.242 11414 11463 D : [(AnboxWebStreamViewModel.kt:557):getCloudGameInfoWithIntent] action : null data : null
+, 18119 09-29T13:13:26.262 11414 11463 D : [(AnboxWebStreamViewModel.kt:565):getCloudGameInfoWithIntent] connection: packageName: com.samsung.android.sdk.iap.v6.sample1
+, 18120 09-29T13:13:26.281 11414 11463 D : [(AnboxWebStreamViewModel.kt:581):getCloudGameInfoWithPackageName] connection: joinWithPackageName: com.samsung.android.sdk.iap.v6.sample1
+, 18121 09-29T13:13:26.299 11414 11463 D : [(UseCase.kt:22):sendEvent] sendEvent : com.samsung.android.sdk.iap.v6.sample1
+, 18122 09-29T13:13:26.318 11414 11463 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=com.samsung.android.sdk.iap.v6.sample1)
+, 18123 09-29T13:13:26.336 11414 11463 D : [(UseCase.kt:47):invokeSuspend] StartCloudGameTask[1AEAFD5] START
+, 18124 09-29T13:13:26.354 11414 11463 D : [(UseCase.kt:40):invokeSuspend] StartCloudGameTask[1AEAFD5] TRIGGERED by com.samsung.android.sdk.iap.v6.sample1
+, 18125 09-29T13:13:26.377 11414 11463 D : [(UseCase.kt:55):invokeSuspend] StartCloudGameTask[1AEAFD5] LOADING
+, 18126 09-29T13:13:26.399 11414 11463 D : [(AnboxWebStreamViewModel.kt:494):onResume] onResume
+, 18127 09-29T13:13:26.417 11414 11463 D : [(UseCase.kt:51):invokeSuspend] GetConnectionStateTask[BA7E578] SUCCESS ++++++++++++++++++++
+, 18128 09-29T13:13:26.441 11414 11463 D : [(UseCase.kt:76):printData] GetConnectionStateTask[BA7E578] com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244
+, 18129 09-29T13:13:26.462 11414 11463 D : [(UseCase.kt:53):invokeSuspend] GetConnectionStateTask[BA7E578] SUCCESS --------------------
+, 18130 09-29T13:13:26.481 11414 11463 D : [(AnboxWebStreamViewModel.kt:142):invokeSuspend] connection: connectionState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244), streamConnectionState=false, controlServerConnectionState=false)
+, 18131 09-29T13:13:26.499 11414 11463 D : [(AnboxWebStreamViewModel.kt:674):emit] connection: networkState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244), streamConnectionState=false, controlServerConnectionState=false)
+, 18132 09-29T13:13:26.519 11414 11463 D : [(AnboxWebStreamViewModel.kt:677):emit] connection: start CloudGamePlayer
+, 18133 09-29T13:13:26.541 11414 11463 D : [(UseCase.kt:51):invokeSuspend] GetConnectionStateTask[BA7E578] SUCCESS ++++++++++++++++++++
+, 18134 09-29T13:13:26.561 11414 11463 D : [(UseCase.kt:76):printData] GetConnectionStateTask[BA7E578] com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244
+, 18135 09-29T13:13:26.584 11414 11463 D : [(UseCase.kt:53):invokeSuspend] GetConnectionStateTask[BA7E578] SUCCESS --------------------
+, 18136 09-29T13:13:26.619 11414 11463 D : [(AnboxWebStreamViewModel.kt:142):invokeSuspend] connection: connectionState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244), streamConnectionState=false, controlServerConnectionState=false)
+, 18137 09-29T13:13:26.642 11414 11463 D : [(UseCase.kt:47):invokeSuspend] UploadIssueLogTask[91256DB] START
+, 18138 09-29T13:13:26.662 11414 11463 D : [(UseCase.kt:51):invokeSuspend] GetConnectionStateTask[BA7E578] SUCCESS ++++++++++++++++++++
+, 18139 09-29T13:13:26.707 11414 11463 D : [(UseCase.kt:76):printData] GetConnectionStateTask[BA7E578] com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$ChangedWithAvailable@99a3447
+, 18140 09-29T13:13:26.728 11414 11463 D : [(UseCase.kt:53):invokeSuspend] GetConnectionStateTask[BA7E578] SUCCESS --------------------
+, 18141 09-29T13:13:26.748 11414 11463 D : [(AnboxWebStreamViewModel.kt:142):invokeSuspend] connection: connectionState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$ChangedWithAvailable@99a3447), streamConnectionState=false, controlServerConnectionState=false)
+, 18142 09-29T13:13:26.768 11414 11463 D : [(AnboxWebStreamViewModel.kt:674):emit] connection: networkState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$ChangedWithAvailable@99a3447), streamConnectionState=false, controlServerConnectionState=false)
+, 18143 09-29T13:13:26.787 11414 11463 E : [(UseCase.kt:56):invokeSuspend] StartCloudGameTask[1AEAFD5] ERROR  ----> result Resource ERROR com.samsung.android.game.cloudgame.common.InternalErrorException: CLG.500.000 : Internal Error
+, 18144 09-29T13:13:26.806 11414 11463 D : [(UseCase.kt:59):invokeSuspend] StartCloudGameTask[1AEAFD5] COMPLETE
+, 18145 09-29T13:13:29.140 11414 11463 D : [(AnboxWebStreamViewModel.kt:503):onPause] onPause
+, 18146 09-29T13:13:29.610 11414 11463 D : [(AnboxWebStreamViewModel.kt:448):disconnectClient] connection: disconnectClient
+, 18147 09-29T13:13:29.628 11414 11463 D : [(UseCase.kt:59):invokeSuspend] GetConnectionStateTask[BA7E578] COMPLETE
+, 18148 09-29T13:13:33.200 11414 11463 D : [(UseCase.kt:22):sendEvent] sendEvent : kotlin.Unit
+, 18149 09-29T13:13:33.240 11414 11463 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=kotlin.Unit)
+, 18150 09-29T13:13:33.266 11414 11463 D : [(AnboxWebStreamViewModel.kt:670):observeConnectionState] connection: observeNetworkState
+, 18151 09-29T13:13:33.283 11414 11463 D : [(AnboxWebStreamViewModel.kt:674):emit] connection: networkState: ConnectionState(internetConnectionState=com.samsung.android.game.cloudgame.usecase.model.Resource$Loading@1377451, streamConnectionState=false, controlServerConnectionState=false)
+, 18152 09-29T13:13:33.302 11414 11463 D : [(UseCase.kt:47):invokeSuspend] GetConnectionStateTask[8E02424] START
+, 18153 09-29T13:13:33.321 11414 11463 D : [(UseCase.kt:40):invokeSuspend] GetConnectionStateTask[8E02424] TRIGGERED by kotlin.Unit
+, 18154 09-29T13:13:33.379 11414 11463 D : [(UseCase.kt:55):invokeSuspend] GetConnectionStateTask[8E02424] LOADING
+, 18155 09-29T13:13:33.408 11414 11463 D : [(AnboxWebStreamViewModel.kt:142):invokeSuspend] connection: connectionState: ConnectionState(internetConnectionState=com.samsung.android.game.cloudgame.usecase.model.Resource$Loading@1377451, streamConnectionState=false, controlServerConnectionState=false)
+, 18156 09-29T13:13:33.434 11414 11463 E : [(GetConnectionStateTask.kt:38):onAvailable] The default network is now: 133
+, 18157 09-29T13:13:33.462 11414 11463 D : [(AnboxWebStreamViewModel.kt:547):getCloudGameInfoWithIntent] connection: getCloudGameInfoWithIntent: null
+, 18158 09-29T13:13:33.482 11414 11463 D : [(AnboxWebStreamViewModel.kt:557):getCloudGameInfoWithIntent] action : null data : null
+, 18159 09-29T13:13:33.504 11414 11463 D : [(AnboxWebStreamViewModel.kt:565):getCloudGameInfoWithIntent] connection: packageName: com.igg.samsung.lordsmobile
+, 18160 09-29T13:13:33.532 11414 11463 D : [(AnboxWebStreamViewModel.kt:581):getCloudGameInfoWithPackageName] connection: joinWithPackageName: com.igg.samsung.lordsmobile
+, 18161 09-29T13:13:33.573 11414 11463 D : [(UseCase.kt:22):sendEvent] sendEvent : com.igg.samsung.lordsmobile
+, 18162 09-29T13:13:33.595 11414 11463 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=com.igg.samsung.lordsmobile)
+, 18163 09-29T13:13:33.632 11414 11463 D : [(UseCase.kt:47):invokeSuspend] StartCloudGameTask[1498B51] START
+, 18164 09-29T13:13:33.670 11414 11463 E : [(GetConnectionStateTask.kt:53):onCapabilitiesChanged] The default network changed capabilities: [ Transports: CELLULAR Capabilities: SUPL&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> UnderlyingNetworks: Null]
+, 18165 09-29T13:13:33.693 11414 11463 D : [(UseCase.kt:40):invokeSuspend] StartCloudGameTask[1498B51] TRIGGERED by com.igg.samsung.lordsmobile
+, 18166 09-29T13:13:33.713 11414 11463 D : [(UseCase.kt:55):invokeSuspend] StartCloudGameTask[1498B51] LOADING
+, 18167 09-29T13:13:33.735 11414 11463 D : [(GetConnectionStateTask.kt:58):onCapabilitiesChanged] result : ChangedWithAvailable
+, 18168 09-29T13:13:33.759 11414 11463 E : [(GetConnectionStateTask.kt:64):onLinkPropertiesChanged] The default network changed link properties: {InterfaceName: rmnet1 LinkAddresses: [ 10.196.92.98/24 ] DnsAddresses: [ /172.19.140.7,/172.25.227.7 ] Domains: null MTU: 1440 TcpBufferSizes: 4096,6291456,12582912,4096,1048576,2097152 Routes: [ 0.0.0.0/0 -> 10.196.92.1 rmnet1 mtu 1440,10.196.92.0/24 -> 0.0.0.0 rmnet1 mtu 0 ]}
+, 18169 09-29T13:13:33.778 11414 11463 D : [(AnboxWebStreamViewModel.kt:494):onResume] onResume
+, 18170 09-29T13:13:33.797 11414 11463 D : [(UseCase.kt:51):invokeSuspend] GetConnectionStateTask[8E02424] SUCCESS ++++++++++++++++++++
+, 18171 09-29T13:13:33.816 11414 11463 D : [(UseCase.kt:76):printData] GetConnectionStateTask[8E02424] com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244
+, 18172 09-29T13:13:33.842 11414 11463 D : [(UseCase.kt:53):invokeSuspend] GetConnectionStateTask[8E02424] SUCCESS --------------------
+, 18173 09-29T13:13:33.861 11414 11463 D : [(AnboxWebStreamViewModel.kt:142):invokeSuspend] connection: connectionState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244), streamConnectionState=false, controlServerConnectionState=false)
+, 18174 09-29T13:13:33.881 11414 11463 D : [(AnboxWebStreamViewModel.kt:674):emit] connection: networkState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244), streamConnectionState=false, controlServerConnectionState=false)
+, 18175 09-29T13:13:33.901 11414 11463 D : [(AnboxWebStreamViewModel.kt:677):emit] connection: start CloudGamePlayer
+, 18176 09-29T13:13:33.920 11414 11463 E : [(UseCase.kt:56):invokeSuspend] StartCloudGameTask[1498B51] ERROR  ----> result Resource ERROR com.samsung.android.game.cloudgame.common.AlreadySessionExistedFromOtherGameException: CLG.400.504 : Already Session Existed from other game (CURRENTLY PLAYING OTHER GAMES)
+, 18177 09-29T13:13:33.938 11414 11463 D : [(UseCase.kt:59):invokeSuspend] StartCloudGameTask[1498B51] COMPLETE
+, 18178 09-29T13:13:33.957 11414 11463 D : [(UseCase.kt:51):invokeSuspend] GetConnectionStateTask[8E02424] SUCCESS ++++++++++++++++++++
+, 18179 09-29T13:13:33.975 11414 11463 D : [(UseCase.kt:76):printData] GetConnectionStateTask[8E02424] com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244
+, 18180 09-29T13:13:33.993 11414 11463 D : [(UseCase.kt:53):invokeSuspend] GetConnectionStateTask[8E02424] SUCCESS --------------------
+, 18181 09-29T13:13:34.013 11414 11463 D : [(AnboxWebStreamViewModel.kt:142):invokeSuspend] connection: connectionState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244), streamConnectionState=false, controlServerConnectionState=false)
+, 18182 09-29T13:13:34.030 11414 11463 D : [(UseCase.kt:47):invokeSuspend] UploadIssueLogTask[416F4B7] START
+, 18183 09-29T13:13:34.048 11414 11463 D : [(UseCase.kt:51):invokeSuspend] GetConnectionStateTask[8E02424] SUCCESS ++++++++++++++++++++
+, 18184 09-29T13:13:34.065 11414 11463 D : [(UseCase.kt:76):printData] GetConnectionStateTask[8E02424] com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$ChangedWithAvailable@99a3447
+, 18185 09-29T13:13:34.082 11414 11463 D : [(UseCase.kt:53):invokeSuspend] GetConnectionStateTask[8E02424] SUCCESS --------------------
+, 18186 09-29T13:13:34.100 11414 11463 D : [(AnboxWebStreamViewModel.kt:142):invokeSuspend] connection: connectionState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$ChangedWithAvailable@99a3447), streamConnectionState=false, controlServerConnectionState=false)
+, 18187 09-29T13:13:34.117 11414 11463 D : [(AnboxWebStreamViewModel.kt:674):emit] connection: networkState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$ChangedWithAvailable@99a3447), streamConnectionState=false, controlServerConnectionState=false)
+, 18188 09-29T13:13:34.681 11414 11463 D : [(UseCase.kt:59):invokeSuspend] UploadIssueLogTask[91256DB] COMPLETE
+, 18189 09-29T13:13:43.021 11414 11463 D : [(AnboxWebStreamViewModel.kt:503):onPause] onPause
+, 18190 09-29T13:13:43.494 11414 11463 D : [(AnboxWebStreamViewModel.kt:448):disconnectClient] connection: disconnectClient
+, 18191 09-29T13:13:43.512 11414 11463 D : [(UseCase.kt:59):invokeSuspend] GetConnectionStateTask[8E02424] COMPLETE
+, 18192 09-29T13:13:45.997 11414 11463 D : [(UseCase.kt:59):invokeSuspend] GetGameItemListTask[A10DACA] COMPLETE
+, 18193 09-29T13:13:47.173 11414 11463 D : [(TestSettingActivity.kt:16):onCreate] onCreate
+, 18194 09-29T13:13:48.519 11414 11463 D : [(UseCase.kt:59):invokeSuspend] UploadIssueLogTask[416F4B7] COMPLETE
+, 18195 09-29T13:13:52.001 11414 11463 D : [(UseCase.kt:22):sendEvent] sendEvent : kotlin.Unit
+, 18196 09-29T13:13:52.021 11414 11463 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=kotlin.Unit)
+, 18197 09-29T13:13:52.067 11414 11463 D : [(UseCase.kt:47):invokeSuspend] GetGameItemListTask[FACC6D2] START
+, 18198 09-29T13:13:52.096 11414 11463 D : [(UseCase.kt:40):invokeSuspend] GetGameItemListTask[FACC6D2] TRIGGERED by kotlin.Unit
+, 18199 09-29T13:13:52.133 11414 11463 D : [(UseCase.kt:55):invokeSuspend] GetGameItemListTask[FACC6D2] LOADING
+, 18200 09-29T13:13:52.318 11414 11463 D : [(UseCase.kt:51):invokeSuspend] GetGameItemListTask[FACC6D2] SUCCESS ++++++++++++++++++++
+, 18201 09-29T13:13:52.337 11414 11463 D : [(UseCase.kt:69):printData] GetGameItemListTask[FACC6D2] List Size : 6
+, 18202 09-29T13:13:52.355 11414 11463 D : [(UseCase.kt:70):printData] GetGameItemListTask[FACC6D2] GameItem(id=com.chucklefish.stardewvalleysamsung, title=Stardew Vally, iconUrl=https://img.samsungapps.com/content/q93y5jw1vh/2019/0311/IconImage_20190311163914624.png, screenshotUrl=https://play-lh.googleusercontent.com/9uy1ZwSwrhXDrIXQMySQgOgoMU8T3oSjf85T68_HDLtTuc6iqDPSYVZ5D6Vysg-D9DY=w2560-h1440-rw)
+, 18203 09-29T13:13:52.374 11414 11463 D : [(UseCase.kt:70):printData] GetGameItemListTask[FACC6D2] GameItem(id=com.igg.samsung.lordsmobile, title=Lords Mobile, iconUrl=https://play-lh.googleusercontent.com/ncXkkngg-Tq5QRtKV-qyIF_ZMQJU1bQDa-0ZXePgH_zF0raIMPNDr6TYRCBiqLXmcYU=s48-rw, screenshotUrl=https://play-lh.googleusercontent.com/cfYwQ_hvwLy-k_tvXD9nS5Wqt2qnaE6pN3UDryHMyIGYK93LpWGmQaINVIUL04f9FLk=w526-h296-rw)
+, 18204 09-29T13:13:52.397 11414 11463 D : [(UseCase.kt:70):printData] GetGameItemListTask[FACC6D2] GameItem(id=com.miHoYo.bh3korea.samsung, title=Honkai Impact 3rd, iconUrl=https://play-lh.googleusercontent.com/MnI36M6LJ11u5jmB9lSwobw1_6HbhG8ZCrASaQKU0XHuC1FhGza7qQ4DlRe_48Ds3Uo=s48-rw, screenshotUrl=https://play-lh.googleusercontent.com/fokzB2eYYvCCcPZ3iZZT_h2oFxP5XbdEfevYQ-7c2XBoyKmzOQ5GluAetaIh6KFgGWI=w526-h296-rw)
+, 18205 09-29T13:13:52.416 11414 11463 D : [(UseCase.kt:70):printData] GetGameItemListTask[FACC6D2] GameItem(id=com.korea.lmzh.samsung, title=데몬헌터-Demon Hunter, iconUrl=https://play-lh.googleusercontent.com/rRxaAMyVb-njIoLLbU_bPh_D_6v72n0teNbkgeikoaZexgUUttE-foTE8bMYcii1Pw=s180-rw, screenshotUrl=https://play-lh.googleusercontent.com/-BbRUkTOYHHTkljDvwQigZetYbxYVpYFwa52FxwhJslkJKYOE_Lf1pbjZjDgxOhrHg=w720-h310-rw)
+, 18206 09-29T13:13:52.437 11414 11463 D : [(UseCase.kt:70):printData] GetGameItemListTask[FACC6D2] GameItem(id=com.YoStarKR.Samsung.Arknights, title=명일방주, iconUrl=https://play-lh.googleusercontent.com/CV04ek0EGV3IGD9iZDPcMEIKlYKW30p7Gia4qIjdiXk8_XkzmKUvgjznxZ0WneN6dNg=w240-h480-rw, screenshotUrl=https://play-lh.googleusercontent.com/JYK032H4j1db6y2UBJK2CTMQUccXwvJ7h8H98Ea_3KO8lBWZmLxHnHY-PmeuUTkN5Q=w526-h296-rw)
+, 18207 09-29T13:13:52.457 11414 11463 D : [(UseCase.kt:70):printData] GetGameItemListTask[FACC6D2] GameItem(id=com.samsung.android.sdk.iap.v6.sample1, title=IAP SAMPLE APP, iconUrl=https://i.pinimg.com/originals/b3/d9/10/b3d910b91583dc1f4e19727df826adb2.png, screenshotUrl=https://img.us.news.samsung.com/us/wp-content/uploads/2020/10/30094221/Galaxy-Store-Goes-All-in-for-Gaming-2.jpg)
+, 18208 09-29T13:13:52.481 11414 11463 D : [(UseCase.kt:53):invokeSuspend] GetGameItemListTask[FACC6D2] SUCCESS --------------------
+, 18209 09-29T13:13:54.865 11414 11463 D : [(UseCase.kt:22):sendEvent] sendEvent : kotlin.Unit
+, 18210 09-29T13:13:54.888 11414 11463 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=kotlin.Unit)
+, 18211 09-29T13:13:54.910 11414 11463 D : [(AnboxWebStreamViewModel.kt:670):observeConnectionState] connection: observeNetworkState
+, 18212 09-29T13:13:54.933 11414 11463 D : [(AnboxWebStreamViewModel.kt:674):emit] connection: networkState: ConnectionState(internetConnectionState=com.samsung.android.game.cloudgame.usecase.model.Resource$Loading@1377451, streamConnectionState=false, controlServerConnectionState=false)
+, 18213 09-29T13:13:54.956 11414 11463 D : [(UseCase.kt:47):invokeSuspend] GetConnectionStateTask[63ACF3A] START
+, 18214 09-29T13:13:55.004 11414 11463 D : [(UseCase.kt:40):invokeSuspend] GetConnectionStateTask[63ACF3A] TRIGGERED by kotlin.Unit
+, 18215 09-29T13:13:55.042 11414 11463 D : [(UseCase.kt:55):invokeSuspend] GetConnectionStateTask[63ACF3A] LOADING
+, 18216 09-29T13:13:55.065 11414 11463 D : [(AnboxWebStreamViewModel.kt:142):invokeSuspend] connection: connectionState: ConnectionState(internetConnectionState=com.samsung.android.game.cloudgame.usecase.model.Resource$Loading@1377451, streamConnectionState=false, controlServerConnectionState=false)
+, 18217 09-29T13:13:55.091 11414 11463 E : [(GetConnectionStateTask.kt:38):onAvailable] The default network is now: 133
+, 18218 09-29T13:13:55.123 11414 11463 E : [(GetConnectionStateTask.kt:53):onCapabilitiesChanged] The default network changed capabilities: [ Transports: CELLULAR Capabilities: SUPL&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> UnderlyingNetworks: Null]
+, 18219 09-29T13:13:55.153 11414 11463 D : [(GetConnectionStateTask.kt:58):onCapabilitiesChanged] result : ChangedWithAvailable
+, 18220 09-29T13:13:55.178 11414 11463 E : [(GetConnectionStateTask.kt:64):onLinkPropertiesChanged] The default network changed link properties: {InterfaceName: rmnet1 LinkAddresses: [ 10.196.92.98/24 ] DnsAddresses: [ /172.19.140.7,/172.25.227.7 ] Domains: null MTU: 1440 TcpBufferSizes: 4096,6291456,12582912,4096,1048576,2097152 Routes: [ 0.0.0.0/0 -> 10.196.92.1 rmnet1 mtu 1440,10.196.92.0/24 -> 0.0.0.0 rmnet1 mtu 0 ]}
+, 18221 09-29T13:13:55.204 11414 11463 D : [(AnboxWebStreamViewModel.kt:547):getCloudGameInfoWithIntent] connection: getCloudGameInfoWithIntent: null
+, 18222 09-29T13:13:55.224 11414 11463 D : [(AnboxWebStreamViewModel.kt:557):getCloudGameInfoWithIntent] action : null data : null
+, 18223 09-29T13:13:55.244 11414 11463 D : [(AnboxWebStreamViewModel.kt:565):getCloudGameInfoWithIntent] connection: packageName: com.samsung.android.sdk.iap.v6.sample1
+, 18224 09-29T13:13:55.271 11414 11463 D : [(AnboxWebStreamViewModel.kt:581):getCloudGameInfoWithPackageName] connection: joinWithPackageName: com.samsung.android.sdk.iap.v6.sample1
+, 18225 09-29T13:13:55.291 11414 11463 D : [(UseCase.kt:22):sendEvent] sendEvent : com.samsung.android.sdk.iap.v6.sample1
+, 18226 09-29T13:13:55.314 11414 11463 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=com.samsung.android.sdk.iap.v6.sample1)
+, 18227 09-29T13:13:55.343 11414 11463 D : [(UseCase.kt:47):invokeSuspend] StartCloudGameTask[AA6DCF] START
+, 18228 09-29T13:13:55.375 11414 11463 D : [(UseCase.kt:40):invokeSuspend] StartCloudGameTask[AA6DCF] TRIGGERED by com.samsung.android.sdk.iap.v6.sample1
+, 18229 09-29T13:13:55.400 11414 11463 D : [(UseCase.kt:55):invokeSuspend] StartCloudGameTask[AA6DCF] LOADING
+, 18230 09-29T13:13:55.445 11414 11463 D : [(AnboxWebStreamViewModel.kt:494):onResume] onResume
+, 18231 09-29T13:13:55.512 11414 11463 D : [(UseCase.kt:51):invokeSuspend] GetConnectionStateTask[63ACF3A] SUCCESS ++++++++++++++++++++
+, 18232 09-29T13:13:55.564 11414 11463 D : [(UseCase.kt:76):printData] GetConnectionStateTask[63ACF3A] com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244
+, 18233 09-29T13:13:55.606 11414 11463 D : [(UseCase.kt:53):invokeSuspend] GetConnectionStateTask[63ACF3A] SUCCESS --------------------
+, 18234 09-29T13:13:55.634 11414 11463 D : [(AnboxWebStreamViewModel.kt:142):invokeSuspend] connection: connectionState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244), streamConnectionState=false, controlServerConnectionState=false)
+, 18235 09-29T13:13:55.668 11414 11463 D : [(AnboxWebStreamViewModel.kt:674):emit] connection: networkState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244), streamConnectionState=false, controlServerConnectionState=false)
+, 18236 09-29T13:13:55.687 11414 11463 D : [(AnboxWebStreamViewModel.kt:677):emit] connection: start CloudGamePlayer
+, 18237 09-29T13:13:55.705 11414 11463 D : [(UseCase.kt:51):invokeSuspend] GetConnectionStateTask[63ACF3A] SUCCESS ++++++++++++++++++++
+, 18238 09-29T13:13:55.755 11414 11463 D : [(UseCase.kt:76):printData] GetConnectionStateTask[63ACF3A] com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244
+, 18239 09-29T13:13:55.778 11414 11463 D : [(UseCase.kt:53):invokeSuspend] GetConnectionStateTask[63ACF3A] SUCCESS --------------------
+, 18240 09-29T13:13:55.802 11414 11463 D : [(AnboxWebStreamViewModel.kt:142):invokeSuspend] connection: connectionState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$Available@7f19244), streamConnectionState=false, controlServerConnectionState=false)
+, 18241 09-29T13:13:55.830 11414 11463 D : [(UseCase.kt:47):invokeSuspend] UploadIssueLogTask[ACFA665] START
+, 18242 09-29T13:13:55.862 11414 11463 D : [(UseCase.kt:51):invokeSuspend] GetConnectionStateTask[63ACF3A] SUCCESS ++++++++++++++++++++
+, 18243 09-29T13:13:55.886 11414 11463 D : [(UseCase.kt:76):printData] GetConnectionStateTask[63ACF3A] com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$ChangedWithAvailable@99a3447
+, 18244 09-29T13:13:55.925 11414 11463 D : [(UseCase.kt:53):invokeSuspend] GetConnectionStateTask[63ACF3A] SUCCESS --------------------
+, 18245 09-29T13:13:55.985 11414 11463 D : [(AnboxWebStreamViewModel.kt:142):invokeSuspend] connection: connectionState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$ChangedWithAvailable@99a3447), streamConnectionState=false, controlServerConnectionState=false)
+, 18246 09-29T13:13:56.035 11414 11463 D : [(AnboxWebStreamViewModel.kt:674):emit] connection: networkState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$ChangedWithAvailable@99a3447), streamConnectionState=false, controlServerConnectionState=false)
+, 18247 09-29T13:13:56.094 11414 11463 D : [(UseCase.kt:51):invokeSuspend] StartCloudGameTask[AA6DCF] SUCCESS ++++++++++++++++++++
+, 18248 09-29T13:13:56.147 11414 11463 D : [(UseCase.kt:76):printData] StartCloudGameTask[AA6DCF] GameResource(controlServiceUrl=ec2-43-200-105-172.ap-northeast-2.compute.amazonaws.com, controlServicePort=10012, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, orientation=02, sessionMetaData=SessionMetaData(id=ccqg6a92mck4r7a062mg, url=wss://ec2-43-200-105-172.ap-northeast-2.compute.amazonaws.com/1.0/sessions/ccqg6a92mck4r7a062mg/sockets/slave/?token=AgEUYW5ib3gtc3RyZWFtLWdhdGV3YXkCHHNsYXZlOmNjcWc2YTkybWNrNHI3YTA2Mm1nOjIAAhQyMDIyLTA5LTI5VDA0OjEzOjU1WgACFDIwMjItMDktMjlUMDQ6MTg6NTVaAAAGIObYmmffAZTsRjiwUeMf7T2xBS9xZ4nuHm53rYrpePS1, stunServerList=[StunServer(userName=, password=, urlList=[stun:43.200.105.172:5349]), StunServer(userName=1664425135, password=PmIIi17LaQ6ydpARv5q4bElBEbw=, urlList=[turn:43.200.105.172:5349])]))
+, 18249 09-29T13:13:56.230 11414 11463 D : [(UseCase.kt:53):invokeSuspend] StartCloudGameTask[AA6DCF] SUCCESS --------------------
+, 18250 09-29T13:13:56.287 11414 11463 D : [(UseCase.kt:59):invokeSuspend] StartCloudGameTask[AA6DCF] COMPLETE
+, 18251 09-29T13:13:56.315 11414 11463 D : [(AnboxWebStreamActivity.kt:634):joinWithCloudGameInfo] connection: joinWithCloudGameInfo
+, 18252 09-29T13:13:56.333 11414 11463 V : [(AnboxWebStreamActivity.kt:642):joinWithCloudGameInfo] Activity orientation is changed to Landscape
+, 18253 09-29T13:13:56.353 11414 11463 D : [(AnboxWebStreamViewModel.kt:503):onPause] onPause
+, 18254 09-29T13:13:56.375 11414 11463 D : [(AnboxWebStreamViewModel.kt:448):disconnectClient] connection: disconnectClient
+, 18255 09-29T13:13:56.410 11414 11463 D : [(AnboxWebStreamViewModel.kt:670):observeConnectionState] connection: observeNetworkState
+, 18256 09-29T13:13:56.457 11414 11463 D : [(AnboxWebStreamViewModel.kt:674):emit] connection: networkState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$ChangedWithAvailable@99a3447), streamConnectionState=false, controlServerConnectionState=false)
+, 18257 09-29T13:13:56.497 11414 11463 D : [(AnboxWebStreamViewModel.kt:547):getCloudGameInfoWithIntent] connection: getCloudGameInfoWithIntent: null
+, 18258 09-29T13:13:56.519 11414 11463 D : [(AnboxWebStreamViewModel.kt:557):getCloudGameInfoWithIntent] action : null data : null
+, 18259 09-29T13:13:56.550 11414 11463 D : [(AnboxWebStreamViewModel.kt:565):getCloudGameInfoWithIntent] connection: packageName: com.samsung.android.sdk.iap.v6.sample1
+, 18260 09-29T13:13:56.573 11414 11463 D : [(AnboxWebStreamViewModel.kt:581):getCloudGameInfoWithPackageName] connection: joinWithPackageName: com.samsung.android.sdk.iap.v6.sample1
+, 18261 09-29T13:13:56.593 11414 11463 D : [(UseCase.kt:22):sendEvent] sendEvent : com.samsung.android.sdk.iap.v6.sample1
+, 18262 09-29T13:13:56.620 11414 11463 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=com.samsung.android.sdk.iap.v6.sample1)
+, 18263 09-29T13:13:56.647 11414 11463 D : [(UseCase.kt:47):invokeSuspend] StartCloudGameTask[AA6DCF] START
+, 18264 09-29T13:13:56.666 11414 11463 D : [(UseCase.kt:40):invokeSuspend] StartCloudGameTask[AA6DCF] TRIGGERED by com.samsung.android.sdk.iap.v6.sample1
+, 18265 09-29T13:13:56.692 11414 11463 D : [(UseCase.kt:55):invokeSuspend] StartCloudGameTask[AA6DCF] LOADING
+, 18266 09-29T13:13:56.711 11414 11463 D : [(AnboxWebStreamActivity.kt:634):joinWithCloudGameInfo] connection: joinWithCloudGameInfo
+, 18267 09-29T13:13:56.731 11414 11463 D : [(CloudGamePlayer.kt:47):start] connection: start with cloudGameInfo : CloudGameInfo(gameId=com.samsung.android.sdk.iap.v6.sample1, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, gatewayUrl=, apiToken=, appName=, sessionId=ccqg6a92mck4r7a062mg, signalingUrl=wss://ec2-43-200-105-172.ap-northeast-2.compute.amazonaws.com/1.0/sessions/ccqg6a92mck4r7a062mg/sockets/slave/?token=AgEUYW5ib3gtc3RyZWFtLWdhdGV3YXkCHHNsYXZlOmNjcWc2YTkybWNrNHI3YTA2Mm1nOjIAAhQyMDIyLTA5LTI5VDA0OjEzOjU1WgACFDIwMjItMDktMjlUMDQ6MTg6NTVaAAAGIObYmmffAZTsRjiwUeMf7T2xBS9xZ4nuHm53rYrpePS1, stunServers=[StunServer(urls=[stun:43.200.105.172:5349], password=, username=), StunServer(urls=[turn:43.200.105.172:5349], password=PmIIi17LaQ6ydpARv5q4bElBEbw=, username=1664425135)], serverIp=ec2-43-200-105-172.ap-northeast-2.compute.amazonaws.com, port=10012, isPortraitGame=false, isDevelopMode=true)+++++++++++++++++++++++++++++++++++++++++++
+, 18268 09-29T13:13:56.750 11414 11463 D : [(AnboxWebStreamViewModel.kt:494):onResume] onResume
+, 18269 09-29T13:13:56.767 11414 11463 D : [(SessionCheckService.kt:106):invokeSuspend] count down timer is started
+, 18270 09-29T13:13:56.787 11414 11463 D : [(UseCase.kt:51):invokeSuspend] StartCloudGameTask[AA6DCF] SUCCESS ++++++++++++++++++++
+, 18271 09-29T13:13:56.815 11414 11463 D : [(UseCase.kt:76):printData] StartCloudGameTask[AA6DCF] GameResource(controlServiceUrl=ec2-43-200-105-172.ap-northeast-2.compute.amazonaws.com, controlServicePort=10012, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, orientation=02, sessionMetaData=SessionMetaData(id=ccqg6a92mck4r7a062mg, url=wss://ec2-43-200-105-172.ap-northeast-2.compute.amazonaws.com/1.0/sessions/ccqg6a92mck4r7a062mg/sockets/slave/?token=AgEUYW5ib3gtc3RyZWFtLWdhdGV3YXkCHHNsYXZlOmNjcWc2YTkybWNrNHI3YTA2Mm1nOjMAAhQyMDIyLTA5LTI5VDA0OjEzOjU1WgACFDIwMjItMDktMjlUMDQ6MTg6NTVaAAAGIK2jR5KNr87v1hFPxvUFKWoCza07CCxVzjPOnJvP_myq, stunServerList=[StunServer(userName=, password=, urlList=[stun:43.200.105.172:5349]), StunServer(userName=1664425135, password=PmIIi17LaQ6ydpARv5q4bElBEbw=, urlList=[turn:43.200.105.172:5349])]))
+, 18272 09-29T13:13:56.836 11414 11463 D : [(UseCase.kt:53):invokeSuspend] StartCloudGameTask[AA6DCF] SUCCESS --------------------
+, 18273 09-29T13:13:56.856 11414 11463 D : [(UseCase.kt:59):invokeSuspend] StartCloudGameTask[AA6DCF] COMPLETE
+, 18274 09-29T13:13:56.875 11414 11463 D : [(AnboxWebStreamActivity.kt:634):joinWithCloudGameInfo] connection: joinWithCloudGameInfo
+, 18275 09-29T13:13:56.894 11414 11463 D : [(CloudGamePlayer.kt:47):start] connection: start with cloudGameInfo : CloudGameInfo(gameId=com.samsung.android.sdk.iap.v6.sample1, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, gatewayUrl=, apiToken=, appName=, sessionId=ccqg6a92mck4r7a062mg, signalingUrl=wss://ec2-43-200-105-172.ap-northeast-2.compute.amazonaws.com/1.0/sessions/ccqg6a92mck4r7a062mg/sockets/slave/?token=AgEUYW5ib3gtc3RyZWFtLWdhdGV3YXkCHHNsYXZlOmNjcWc2YTkybWNrNHI3YTA2Mm1nOjMAAhQyMDIyLTA5LTI5VDA0OjEzOjU1WgACFDIwMjItMDktMjlUMDQ6MTg6NTVaAAAGIK2jR5KNr87v1hFPxvUFKWoCza07CCxVzjPOnJvP_myq, stunServers=[StunServer(urls=[stun:43.200.105.172:5349], password=, username=), StunServer(urls=[turn:43.200.105.172:5349], password=PmIIi17LaQ6ydpARv5q4bElBEbw=, username=1664425135)], serverIp=ec2-43-200-105-172.ap-northeast-2.compute.amazonaws.com, port=10012, isPortraitGame=false, isDevelopMode=true)+++++++++++++++++++++++++++++++++++++++++++
+, 18276 09-29T13:13:56.911 11414 11463 D : [(CloudGamePlayer.kt:48):start] -> [(CloudGamePlayer.kt:144):stop] connection: stop-------------------------------------------------------------
+, 18277 09-29T13:13:56.929 11414 11463 D : [(AnboxWebStreamActivity.kt:813):onCloudGamePlayerStopped] connection: onCloudGamePlayerStopped
+, 18278 09-29T13:13:56.948 11414 11463 D : [(AnboxWebStreamViewModel.kt:448):disconnectClient] connection: disconnectClient
+, 18279 09-29T13:13:56.966 11414 11463 D : [(SessionCheckService.kt:108):invokeSuspend] count down timer is completed : kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@12d7560
+, 18280 09-29T13:13:56.985 11414 11463 D : [(AnboxWebViewClient.kt:24):shouldInterceptRequest]  js file request need to set mime/type /assets/js/anbox-stream-sdk.js
+, 18281 09-29T13:13:57.001 11414 11463 D : [(AnboxWebViewClient.kt:53):onReceivedSslError] Ssl error: 3
+, 18282 09-29T13:13:57.019 11414 11463 D : [(AnboxWebViewClient.kt:48):onReceivedError] error: https://appassets.androidplatform.net/favicon.ico
+, 18283 09-29T13:13:57.417 11414 11463 D : [(CloudGamePlayer.kt:75):invoke] [4d26aad] onReady
+, 18284 09-29T13:13:57.435 11414 11463 D : [(AnboxWebStreamActivity.kt:786):onCloudGamePlayerReady] connection: onCloudGamePlayerReady
+, 18285 09-29T13:13:57.452 11414 11463 D : [(AnboxWebStreamViewModel.kt:142):invokeSuspend] connection: connectionState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$ChangedWithAvailable@99a3447), streamConnectionState=true, controlServerConnectionState=false)
+, 18286 09-29T13:13:57.472 11414 11463 D : [(AnboxWebStreamViewModel.kt:674):emit] connection: networkState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$ChangedWithAvailable@99a3447), streamConnectionState=true, controlServerConnectionState=false)
+, 18287 09-29T13:13:57.492 11414 11463 D : [(ControlServiceClient.kt:34):connect] /ws/device connect to ec2-43-200-105-172.ap-northeast-2.compute.amazonaws.com:10012 /ws/device
+, 18288 09-29T13:13:57.515 11414 11463 D : [(ControlServiceClient.kt:34):connect] /ws/logger connect to ec2-43-200-105-172.ap-northeast-2.compute.amazonaws.com:10012 /ws/logger
+, 18289 09-29T13:13:57.837 11414 11463 D : [(Merge.kt:216):invokeSuspend] handover waiting+++
+, 18290 09-29T13:13:57.855 11414 11463 D : [(AnboxWebStreamViewModel.kt:142):invokeSuspend] connection: connectionState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$ChangedWithAvailable@99a3447), streamConnectionState=true, controlServerConnectionState=true)
+, 18291 09-29T13:13:57.876 11414 11463 D : [(AnboxWebStreamViewModel.kt:674):emit] connection: networkState: ConnectionState(internetConnectionState=Success(data=com.samsung.android.game.cloudgame.common.utility.NetworkUtil$NetworkState$ChangedWithAvailable@99a3447), streamConnectionState=true, controlServerConnectionState=true)
+, 18292 09-29T13:13:57.912 11414 11463 D : [(ControlServiceClient.kt:95):send] /ws/device request: JoinWithUserSessionInfo(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, isDevelopMode=true)
+, 18293 09-29T13:13:57.934 11414 11463 D : [(ControlServiceClient.kt:95):send] /ws/logger request: InitInfo(requestPrevLogCount=100)
+, 18294 09-29T13:13:57.966 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/device response: Command(command=joined, message=skipped status verification for debug)
+, 18295 09-29T13:13:57.986 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(DeviceServerImpl.kt:181):responseJoinCompleteWithDebug] -> [(DeviceServerImpl.kt:336):updateSessionStatus] updateSessionStatus : connected)
+, 18296 09-29T13:13:58.005 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(DeviceServerImpl.kt:181):responseJoinCompleteWithDebug] -> [(DeviceServerImpl.kt:336):updateSessionStatus] updateSessionStatus : connected
+, 18297 09-29T13:13:58.030 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(ApiServerImpl.kt:72):emit] sessionStatus : Connected(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=, isDebug=true))
+, 18298 09-29T13:13:58.069 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(ApiServerImpl.kt:72):emit] sessionStatus : Connected(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=, isDebug=true)
+, 18299 09-29T13:13:58.100 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(DeviceStatus.kt:22):onExit$suspendImpl] ready---->)
+, 18300 09-29T13:13:58.127 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(DeviceStatus.kt:22):onExit$suspendImpl] ready---->
+, 18301 09-29T13:13:58.158 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(DeviceStatus.kt:23):onExit$suspendImpl] $-------->com.samsung.android.game.cloudgame.service.server.service.state.SessionStatus$Ready@2a68404)
+, 18302 09-29T13:13:58.181 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(DeviceStatus.kt:23):onExit$suspendImpl] $-------->com.samsung.android.game.cloudgame.service.server.service.state.SessionStatus$Ready@2a68404
+, 18303 09-29T13:13:58.207 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(DeviceStatus.kt:17):onEnter$suspendImpl] $---->connected)
+, 18304 09-29T13:13:58.233 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(DeviceStatus.kt:17):onEnter$suspendImpl] $---->connected
+, 18305 09-29T13:13:58.253 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(DeviceStatus.kt:18):onEnter$suspendImpl] $-------->Connected(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=, isDebug=true))
+, 18306 09-29T13:13:58.279 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(DeviceStatus.kt:18):onEnter$suspendImpl] $-------->Connected(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=, isDebug=true)
+, 18307 09-29T13:13:58.308 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(DeviceServerImpl.kt:73):invoke] -> [(DeviceServerImpl.kt:336):updateSessionStatus] updateSessionStatus : resumed)
+, 18308 09-29T13:13:58.329 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(DeviceServerImpl.kt:73):invoke] -> [(DeviceServerImpl.kt:336):updateSessionStatus] updateSessionStatus : resumed
+, 18309 09-29T13:13:58.348 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(ApiServerImpl.kt:72):emit] sessionStatus : Resumed(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=, isDebug=true))
+, 18310 09-29T13:13:58.365 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(ApiServerImpl.kt:72):emit] sessionStatus : Resumed(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=, isDebug=true)
+, 18311 09-29T13:13:58.382 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(DeviceStatus.kt:22):onExit$suspendImpl] connected---->)
+, 18312 09-29T13:13:58.400 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(DeviceStatus.kt:22):onExit$suspendImpl] connected---->
+, 18313 09-29T13:13:58.418 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(DeviceStatus.kt:23):onExit$suspendImpl] $-------->Connected(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=, isDebug=true))
+, 18314 09-29T13:13:58.435 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(DeviceStatus.kt:23):onExit$suspendImpl] $-------->Connected(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=, isDebug=true)
+, 18315 09-29T13:13:58.454 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(DeviceStatus.kt:17):onEnter$suspendImpl] $---->resumed)
+, 18316 09-29T13:13:58.483 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(DeviceStatus.kt:17):onEnter$suspendImpl] $---->resumed
+, 18317 09-29T13:13:58.500 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(DeviceStatus.kt:18):onEnter$suspendImpl] $-------->Resumed(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=, isDebug=true))
+, 18318 09-29T13:13:58.523 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(DeviceStatus.kt:18):onEnter$suspendImpl] $-------->Resumed(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=, isDebug=true)
+, 18319 09-29T13:13:58.549 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(CombinedStatusState.kt:126):sendMonitoringData] sendMonitoringData[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring] : MonitorData(containerId=ccqg6a92mck4me8ermo0, containerStatus=running, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, sessionStatus=connected))
+, 18320 09-29T13:13:58.566 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(CombinedStatusState.kt:126):sendMonitoringData] sendMonitoringData[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring] : MonitorData(containerId=ccqg6a92mck4me8ermo0, containerStatus=running, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, sessionStatus=connected)
+, 18321 09-29T13:13:58.582 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(ServerModule.kt:34):log] HTTP Client : REQUEST: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+METHOD: HttpMethod(value=PUT)
+COMMON HEADERS
+-> Accept: application/json
+-> Accept-Charset: UTF-8
+CONTENT HEADERS
+-> Content-Length: 149
+-> Content-Type: application/json
+BODY Content-Type: application/json
+BODY START
+{"container_id":"ccqg6a92mck4me8ermo0","container_status":"running","session_id":"36192c18-3280-4776-ad00-e9bd18315ba3","session_status":"connected"}
+BODY END)
+, 18322 09-29T13:13:58.599 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(ServerModule.kt:34):log] HTTP Client : REQUEST: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+METHOD: HttpMethod(value=PUT)
+COMMON HEADERS
+-> Accept: application/json
+-> Accept-Charset: UTF-8
+CONTENT HEADERS
+-> Content-Length: 149
+-> Content-Type: application/json
+BODY Content-Type: application/json
+BODY START
+{"container_id":"ccqg6a92mck4me8ermo0","container_status":"running","session_id":"36192c18-3280-4776-ad00-e9bd18315ba3","session_status":"connected"}
+BODY END
+, 18323 09-29T13:13:58.617 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2236 09-29T04:12:42.211 807 2487 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+)
+, 18324 09-29T13:13:58.633 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2236 09-29T04:12:42.211 807 2487 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+
+, 18325 09-29T13:13:58.649 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2237 09-29T04:12:42.211 807 2478 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+)
+, 18326 09-29T13:13:58.666 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2237 09-29T04:12:42.211 807 2478 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+
+, 18327 09-29T13:13:58.684 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2238 09-29T04:12:52.213 807 2590 I : [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+)
+, 18328 09-29T13:13:58.700 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2238 09-29T04:12:52.213 807 2590 I : [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+
+, 18329 09-29T13:13:58.716 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2239 09-29T04:12:52.214 807 2590 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+)
+, 18330 09-29T13:13:58.733 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2239 09-29T04:12:52.214 807 2590 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+
+, 18331 09-29T13:13:58.749 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2240 09-29T04:12:52.214 807 2522 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+)
+, 18332 09-29T13:13:58.766 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2240 09-29T04:12:52.214 807 2522 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+
+, 18333 09-29T13:13:58.785 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2241 09-29T04:13:02.215 807 1334 I : [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+)
+, 18334 09-29T13:13:58.802 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2241 09-29T04:13:02.215 807 1334 I : [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+
+, 18335 09-29T13:13:58.819 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2242 09-29T04:13:02.216 807 2590 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+)
+, 18336 09-29T13:13:58.834 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2242 09-29T04:13:02.216 807 2590 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+
+, 18337 09-29T13:13:58.851 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2243 09-29T04:13:02.216 807 2478 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+)
+, 18338 09-29T13:13:58.868 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2243 09-29T04:13:02.216 807 2478 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+
+, 18339 09-29T13:13:58.884 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2244 09-29T04:13:12.219 807 2590 I : [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+)
+, 18340 09-29T13:13:58.901 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2244 09-29T04:13:12.219 807 2590 I : [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+
+, 18341 09-29T13:13:58.917 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2245 09-29T04:13:12.219 807 2478 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+)
+, 18342 09-29T13:13:58.934 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2245 09-29T04:13:12.219 807 2478 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+
+, 18343 09-29T13:13:58.950 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2246 09-29T04:13:12.220 807 2513 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+)
+, 18344 09-29T13:13:58.966 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2246 09-29T04:13:12.220 807 2513 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+
+, 18345 09-29T13:13:58.982 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2247 09-29T04:13:22.222 807 2590 I : [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+)
+, 18346 09-29T13:13:59.001 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2247 09-29T04:13:22.222 807 2590 I : [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+
+, 18347 09-29T13:13:59.016 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2248 09-29T04:13:22.222 807 2513 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+)
+, 18348 09-29T13:13:59.032 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2248 09-29T04:13:22.222 807 2513 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+
+, 18349 09-29T13:13:59.048 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2249 09-29T04:13:22.222 807 984 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+)
+, 18350 09-29T13:13:59.066 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2249 09-29T04:13:22.222 807 984 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+
+, 18351 09-29T13:13:59.082 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2250 09-29T04:13:26.409 807 2478 D : [(ApiServerImpl.kt:89):routePut] routePut : /api/reserve
+)
+, 18352 09-29T13:13:59.098 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2250 09-29T04:13:26.409 807 2478 D : [(ApiServerImpl.kt:89):routePut] routePut : /api/reserve
+
+, 18353 09-29T13:13:59.116 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2251 09-29T04:13:26.416 807 2513 D : [(ApiRouteReservePut.kt:37):respond] reserveRequest : Reserve(packageName=com.samsung.android.sdk.iap.v6.sample1, language=en, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3)
+)
+, 18354 09-29T13:13:59.131 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2251 09-29T04:13:26.416 807 2513 D : [(ApiRouteReservePut.kt:37):respond] reserveRequest : Reserve(packageName=com.samsung.android.sdk.iap.v6.sample1, language=en, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3)
+
+, 18355 09-29T13:13:59.149 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2252 09-29T04:13:26.417 807 2513 D : [(UseCase.kt:22):sendEvent] sendEvent : com.samsung.android.sdk.iap.v6.sample1
+)
+, 18356 09-29T13:13:59.166 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2252 09-29T04:13:26.417 807 2513 D : [(UseCase.kt:22):sendEvent] sendEvent : com.samsung.android.sdk.iap.v6.sample1
+
+, 18357 09-29T13:13:59.182 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2253 09-29T04:13:26.417 807 1334 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=com.samsung.android.sdk.iap.v6.sample1)
+)
+, 18358 09-29T13:13:59.198 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2253 09-29T04:13:26.417 807 1334 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=com.samsung.android.sdk.iap.v6.sample1)
+
+, 18359 09-29T13:13:59.215 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2254 09-29T04:13:26.418 807 1334 D : [(UseCase.kt:22):sendEvent] sendEvent : en
+)
+, 18360 09-29T13:13:59.232 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2254 09-29T04:13:26.418 807 1334 D : [(UseCase.kt:22):sendEvent] sendEvent : en
+
+, 18361 09-29T13:13:59.249 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2255 09-29T04:13:26.418 807 984 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=en)
+)
+, 18362 09-29T13:13:59.266 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2255 09-29T04:13:26.418 807 984 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=en)
+
+, 18363 09-29T13:13:59.282 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2256 09-29T04:13:26.418 807 2512 D : [(UseCase.kt:22):sendEvent] sendEvent : 15
+)
+, 18364 09-29T13:13:59.299 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2256 09-29T04:13:26.418 807 2512 D : [(UseCase.kt:22):sendEvent] sendEvent : 15
+
+, 18365 09-29T13:13:59.316 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2257 09-29T04:13:26.418 807 2487 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=15)
+)
+, 18366 09-29T13:13:59.332 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2257 09-29T04:13:26.418 807 2487 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=15)
+
+, 18367 09-29T13:13:59.348 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2258 09-29T04:13:26.420 807 2512 D : [(UseCase.kt:47):invokeSuspend] PrepareGameTask[125B17B] START
+)
+, 18368 09-29T13:13:59.365 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2258 09-29T04:13:26.420 807 2512 D : [(UseCase.kt:47):invokeSuspend] PrepareGameTask[125B17B] START
+
+, 18369 09-29T13:13:59.382 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2259 09-29T04:13:26.420 807 2487 D : [(UseCase.kt:40):invokeSuspend] PrepareGameTask[125B17B] TRIGGERED by com.samsung.android.sdk.iap.v6.sample1
+)
+, 18370 09-29T13:13:59.397 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2259 09-29T04:13:26.420 807 2487 D : [(UseCase.kt:40):invokeSuspend] PrepareGameTask[125B17B] TRIGGERED by com.samsung.android.sdk.iap.v6.sample1
+
+, 18371 09-29T13:13:59.414 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2260 09-29T04:13:26.420 807 2512 D : [(UseCase.kt:55):invokeSuspend] PrepareGameTask[125B17B] LOADING
+)
+, 18372 09-29T13:13:59.432 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2260 09-29T04:13:26.420 807 2512 D : [(UseCase.kt:55):invokeSuspend] PrepareGameTask[125B17B] LOADING
+
+, 18373 09-29T13:13:59.449 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2261 09-29T04:13:26.420 807 2478 D : [(UseCase.kt:47):invokeSuspend] SystemLanguageChangeTask[9423B98] START
+)
+, 18374 09-29T13:13:59.466 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2261 09-29T04:13:26.420 807 2478 D : [(UseCase.kt:47):invokeSuspend] SystemLanguageChangeTask[9423B98] START
+
+, 18375 09-29T13:13:59.483 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2262 09-29T04:13:26.421 807 2487 D : [(UseCase.kt:40):invokeSuspend] SystemLanguageChangeTask[9423B98] TRIGGERED by en
+)
+, 18376 09-29T13:13:59.499 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2262 09-29T04:13:26.421 807 2487 D : [(UseCase.kt:40):invokeSuspend] SystemLanguageChangeTask[9423B98] TRIGGERED by en
+
+, 18377 09-29T13:13:59.516 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2263 09-29T04:13:26.421 807 2522 D : [(UseCase.kt:55):invokeSuspend] SystemLanguageChangeTask[9423B98] LOADING
+)
+, 18378 09-29T13:13:59.533 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2263 09-29T04:13:26.421 807 2522 D : [(UseCase.kt:55):invokeSuspend] SystemLanguageChangeTask[9423B98] LOADING
+
+, 18379 09-29T13:13:59.548 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2264 09-29T04:13:26.422 807 1336 D : [(UseCase.kt:47):invokeSuspend] SetMediaVolumeLevelTask[EEBDFF1] START
+)
+, 18380 09-29T13:13:59.564 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2264 09-29T04:13:26.422 807 1336 D : [(UseCase.kt:47):invokeSuspend] SetMediaVolumeLevelTask[EEBDFF1] START
+
+, 18381 09-29T13:13:59.583 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2265 09-29T04:13:26.422 807 877 D : [(UseCase.kt:40):invokeSuspend] SetMediaVolumeLevelTask[EEBDFF1] TRIGGERED by 15
+)
+, 18382 09-29T13:13:59.599 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2265 09-29T04:13:26.422 807 877 D : [(UseCase.kt:40):invokeSuspend] SetMediaVolumeLevelTask[EEBDFF1] TRIGGERED by 15
+
+, 18383 09-29T13:13:59.616 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2266 09-29T04:13:26.422 807 2590 D : [(UseCase.kt:55):invokeSuspend] SetMediaVolumeLevelTask[EEBDFF1] LOADING
+)
+, 18384 09-29T13:13:59.633 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2266 09-29T04:13:26.422 807 2590 D : [(UseCase.kt:55):invokeSuspend] SetMediaVolumeLevelTask[EEBDFF1] LOADING
+
+, 18385 09-29T13:13:59.649 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2267 09-29T04:13:26.423 807 2487 D : [(UseCase.kt:51):invokeSuspend] PrepareGameTask[125B17B] SUCCESS ++++++++++++++++++++
+)
+, 18386 09-29T13:13:59.666 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2267 09-29T04:13:26.423 807 2487 D : [(UseCase.kt:51):invokeSuspend] PrepareGameTask[125B17B] SUCCESS ++++++++++++++++++++
+
+, 18387 09-29T13:13:59.684 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2268 09-29T04:13:26.423 807 2522 D : [(UseCase.kt:76):printData] PrepareGameTask[125B17B] kotlin.Unit
+)
+, 18388 09-29T13:13:59.700 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2268 09-29T04:13:26.423 807 2522 D : [(UseCase.kt:76):printData] PrepareGameTask[125B17B] kotlin.Unit
+
+, 18389 09-29T13:13:59.717 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2269 09-29T04:13:26.423 807 873 D : [(UseCase.kt:53):invokeSuspend] PrepareGameTask[125B17B] SUCCESS --------------------
+)
+, 18390 09-29T13:13:59.733 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2269 09-29T04:13:26.423 807 873 D : [(UseCase.kt:53):invokeSuspend] PrepareGameTask[125B17B] SUCCESS --------------------
+
+, 18391 09-29T13:13:59.751 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2270 09-29T04:13:26.423 807 980 D : [(SystemLanguageChangeTask.kt:22):invokeSuspend] requested lang is same with system language
+)
+, 18392 09-29T13:13:59.768 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2270 09-29T04:13:26.423 807 980 D : [(SystemLanguageChangeTask.kt:22):invokeSuspend] requested lang is same with system language
+
+, 18393 09-29T13:13:59.785 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2271 09-29T04:13:26.423 807 1335 D : [(UseCase.kt:51):invokeSuspend] SystemLanguageChangeTask[9423B98] SUCCESS ++++++++++++++++++++
+)
+, 18394 09-29T13:13:59.801 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2271 09-29T04:13:26.423 807 1335 D : [(UseCase.kt:51):invokeSuspend] SystemLanguageChangeTask[9423B98] SUCCESS ++++++++++++++++++++
+
+, 18395 09-29T13:13:59.817 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2272 09-29T04:13:26.423 807 981 D : [(UseCase.kt:76):printData] SystemLanguageChangeTask[9423B98] kotlin.Unit
+)
+, 18396 09-29T13:13:59.832 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2272 09-29T04:13:26.423 807 981 D : [(UseCase.kt:76):printData] SystemLanguageChangeTask[9423B98] kotlin.Unit
+
+, 18397 09-29T13:13:59.849 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2273 09-29T04:13:26.424 807 875 D : [(UseCase.kt:53):invokeSuspend] SystemLanguageChangeTask[9423B98] SUCCESS --------------------
+)
+, 18398 09-29T13:13:59.867 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2273 09-29T04:13:26.424 807 875 D : [(UseCase.kt:53):invokeSuspend] SystemLanguageChangeTask[9423B98] SUCCESS --------------------
+
+, 18399 09-29T13:13:59.883 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2274 09-29T04:13:26.438 807 875 D : [(UseCase.kt:51):invokeSuspend] SetMediaVolumeLevelTask[EEBDFF1] SUCCESS ++++++++++++++++++++
+)
+, 18400 09-29T13:13:59.901 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2274 09-29T04:13:26.438 807 875 D : [(UseCase.kt:51):invokeSuspend] SetMediaVolumeLevelTask[EEBDFF1] SUCCESS ++++++++++++++++++++
+
+, 18401 09-29T13:13:59.918 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2275 09-29T04:13:26.439 807 981 D : [(UseCase.kt:76):printData] SetMediaVolumeLevelTask[EEBDFF1] kotlin.Unit
+)
+, 18402 09-29T13:13:59.934 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2275 09-29T04:13:26.439 807 981 D : [(UseCase.kt:76):printData] SetMediaVolumeLevelTask[EEBDFF1] kotlin.Unit
+
+, 18403 09-29T13:13:59.952 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2276 09-29T04:13:26.440 807 875 D : [(UseCase.kt:53):invokeSuspend] SetMediaVolumeLevelTask[EEBDFF1] SUCCESS --------------------
+)
+, 18404 09-29T13:13:59.969 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2276 09-29T04:13:26.440 807 875 D : [(UseCase.kt:53):invokeSuspend] SetMediaVolumeLevelTask[EEBDFF1] SUCCESS --------------------
+
+, 18405 09-29T13:13:59.985 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2277 09-29T04:13:26.441 807 981 D : [(UseCase.kt:59):invokeSuspend] SetMediaVolumeLevelTask[EEBDFF1] COMPLETE
+)
+, 18406 09-29T13:14:00.002 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2277 09-29T04:13:26.441 807 981 D : [(UseCase.kt:59):invokeSuspend] SetMediaVolumeLevelTask[EEBDFF1] COMPLETE
+
+, 18407 09-29T13:14:00.020 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2278 09-29T04:13:26.442 807 875 D : [(UseCase.kt:59):invokeSuspend] PrepareGameTask[125B17B] COMPLETE
+)
+, 18408 09-29T13:14:00.036 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2278 09-29T04:13:26.442 807 875 D : [(UseCase.kt:59):invokeSuspend] PrepareGameTask[125B17B] COMPLETE
+
+, 18409 09-29T13:14:00.054 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2279 09-29T04:13:26.443 807 981 D : [(UseCase.kt:59):invokeSuspend] SystemLanguageChangeTask[9423B98] COMPLETE
+)
+, 18410 09-29T13:14:00.072 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2279 09-29T04:13:26.443 807 981 D : [(UseCase.kt:59):invokeSuspend] SystemLanguageChangeTask[9423B98] COMPLETE
+
+, 18411 09-29T13:14:00.088 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2280 09-29T04:13:26.447 807 875 D : [(ApiServerImpl.kt:79):updateContainerStatus] updateContainerStatus Reserved(containerId=ccqg6a92mck4me8ermo0, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=com.samsung.android.sdk.iap.v6.sample1)
+)
+, 18412 09-29T13:14:00.107 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2280 09-29T04:13:26.447 807 875 D : [(ApiServerImpl.kt:79):updateContainerStatus] updateContainerStatus Reserved(containerId=ccqg6a92mck4me8ermo0, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=com.samsung.android.sdk.iap.v6.sample1)
+
+, 18413 09-29T13:14:00.122 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2281 09-29T04:13:26.448 807 981 D : [(ApiServerImpl.kt:35):emit] containerStatus : reserved
+)
+, 18414 09-29T13:14:00.139 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2281 09-29T04:13:26.448 807 981 D : [(ApiServerImpl.kt:35):emit] containerStatus : reserved
+
+, 18415 09-29T13:14:00.156 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2282 09-29T04:13:26.448 807 1335 D : [(ApiStatus.kt:32):onExit$suspendImpl] ready---->
+)
+, 18416 09-29T13:14:00.174 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2282 09-29T04:13:26.448 807 1335 D : [(ApiStatus.kt:32):onExit$suspendImpl] ready---->
+
+, 18417 09-29T13:14:00.190 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2283 09-29T04:13:26.448 807 980 D : [(ApiStatus.kt:28):onEnter$suspendImpl] $---->reserved
+)
+, 18418 09-29T13:14:00.207 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2283 09-29T04:13:26.448 807 980 D : [(ApiStatus.kt:28):onEnter$suspendImpl] $---->reserved
+
+, 18419 09-29T13:14:00.223 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2284 09-29T04:13:26.449 807 2487 D : [(CombinedStatusState.kt:126):sendMonitoringData] sendMonitoringData[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring] : MonitorData(containerId=ccqg6a92mck4me8ermo0, containerStatus=reserved, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, sessionStatus=ready)
+)
+, 18420 09-29T13:14:00.240 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2284 09-29T04:13:26.449 807 2487 D : [(CombinedStatusState.kt:126):sendMonitoringData] sendMonitoringData[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring] : MonitorData(containerId=ccqg6a92mck4me8ermo0, containerStatus=reserved, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, sessionStatus=ready)
+
+, 18421 09-29T13:14:00.258 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2285 09-29T04:13:26.451 807 875 D : [(ServerModule.kt:34):log] HTTP Client : REQUEST: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+METHOD: HttpMethod(value=PUT)
+COMMON HEADERS
+-> Accept: application/json
+-> Accept-Charset: UTF-8
+CONTENT HEADERS
+-> Content-Length: 146
+-> Content-Type: application/json
+BODY Content-Type: application/json
+BODY START
+{"container_id":"ccqg6a92mck4me8ermo0","container_status":"reserved","session_id":"36192c18-3280-4776-ad00-e9bd18315ba3","session_status":"ready"}
+BODY END
+)
+, 18422 09-29T13:14:00.274 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2285 09-29T04:13:26.451 807 875 D : [(ServerModule.kt:34):log] HTTP Client : REQUEST: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+METHOD: HttpMethod(value=PUT)
+COMMON HEADERS
+-> Accept: application/json
+-> Accept-Charset: UTF-8
+CONTENT HEADERS
+-> Content-Length: 146
+-> Content-Type: application/json
+BODY Content-Type: application/json
+BODY START
+{"container_id":"ccqg6a92mck4me8ermo0","container_status":"reserved","session_id":"36192c18-3280-4776-ad00-e9bd18315ba3","session_status":"ready"}
+BODY END
+
+, 18423 09-29T13:14:00.291 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2286 09-29T04:13:26.494 807 2468 D : [(ApiServerImpl.kt:89):routePut] routePut : /api/launch
+)
+, 18424 09-29T13:14:00.308 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2286 09-29T04:13:26.494 807 2468 D : [(ApiServerImpl.kt:89):routePut] routePut : /api/launch
+
+, 18425 09-29T13:14:00.324 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2287 09-29T04:13:26.497 807 2468 D : [(ApiRouteLaunchPut.kt:31):respond] launchRequest : Launch(packageName=com.samsung.android.sdk.iap.v6.sample1, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3)
+)
+, 18426 09-29T13:14:00.342 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2287 09-29T04:13:26.497 807 2468 D : [(ApiRouteLaunchPut.kt:31):respond] launchRequest : Launch(packageName=com.samsung.android.sdk.iap.v6.sample1, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3)
+
+, 18427 09-29T13:14:00.359 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2288 09-29T04:13:26.497 807 875 D : [(UseCase.kt:22):sendEvent] sendEvent : com.samsung.android.sdk.iap.v6.sample1
+)
+, 18428 09-29T13:14:00.375 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2288 09-29T04:13:26.497 807 875 D : [(UseCase.kt:22):sendEvent] sendEvent : com.samsung.android.sdk.iap.v6.sample1
+
+, 18429 09-29T13:14:00.392 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2289 09-29T04:13:26.497 807 2468 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=com.samsung.android.sdk.iap.v6.sample1)
+)
+, 18430 09-29T13:14:00.409 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2289 09-29T04:13:26.497 807 2468 D : [(UseCase.kt:24):sendEvent] trigger.value : RequestEvent(data=com.samsung.android.sdk.iap.v6.sample1)
+
+, 18431 09-29T13:14:00.425 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2290 09-29T04:13:26.498 807 2487 D : [(UseCase.kt:47):invokeSuspend] LaunchGameTask[B3D6D2C] START
+)
+, 18432 09-29T13:14:00.441 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2290 09-29T04:13:26.498 807 2487 D : [(UseCase.kt:47):invokeSuspend] LaunchGameTask[B3D6D2C] START
+
+, 18433 09-29T13:14:00.460 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2291 09-29T04:13:26.498 807 980 D : [(UseCase.kt:40):invokeSuspend] LaunchGameTask[B3D6D2C] TRIGGERED by com.samsung.android.sdk.iap.v6.sample1
+)
+, 18434 09-29T13:14:00.476 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2291 09-29T04:13:26.498 807 980 D : [(UseCase.kt:40):invokeSuspend] LaunchGameTask[B3D6D2C] TRIGGERED by com.samsung.android.sdk.iap.v6.sample1
+
+, 18435 09-29T13:14:00.492 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2292 09-29T04:13:26.498 807 2468 D : [(UseCase.kt:55):invokeSuspend] LaunchGameTask[B3D6D2C] LOADING
+)
+, 18436 09-29T13:14:00.518 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2292 09-29T04:13:26.498 807 2468 D : [(UseCase.kt:55):invokeSuspend] LaunchGameTask[B3D6D2C] LOADING
+
+, 18437 09-29T13:14:00.535 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2293 09-29T04:13:26.548 807 875 D : [(UseCase.kt:51):invokeSuspend] LaunchGameTask[B3D6D2C] SUCCESS ++++++++++++++++++++
+)
+, 18438 09-29T13:14:00.553 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2293 09-29T04:13:26.548 807 875 D : [(UseCase.kt:51):invokeSuspend] LaunchGameTask[B3D6D2C] SUCCESS ++++++++++++++++++++
+
+, 18439 09-29T13:14:00.570 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2294 09-29T04:13:26.548 807 981 D : [(UseCase.kt:76):printData] LaunchGameTask[B3D6D2C] kotlin.Unit
+)
+, 18440 09-29T13:14:00.585 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2294 09-29T04:13:26.548 807 981 D : [(UseCase.kt:76):printData] LaunchGameTask[B3D6D2C] kotlin.Unit
+
+, 18441 09-29T13:14:00.601 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2295 09-29T04:13:26.548 807 2512 D : [(UseCase.kt:53):invokeSuspend] LaunchGameTask[B3D6D2C] SUCCESS --------------------
+)
+, 18442 09-29T13:14:00.618 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2295 09-29T04:13:26.548 807 2512 D : [(UseCase.kt:53):invokeSuspend] LaunchGameTask[B3D6D2C] SUCCESS --------------------
+
+, 18443 09-29T13:14:00.634 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2296 09-29T04:13:26.548 807 1334 D : [(UseCase.kt:59):invokeSuspend] LaunchGameTask[B3D6D2C] COMPLETE
+)
+, 18444 09-29T13:14:00.650 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2296 09-29T04:13:26.548 807 1334 D : [(UseCase.kt:59):invokeSuspend] LaunchGameTask[B3D6D2C] COMPLETE
+
+, 18445 09-29T13:14:00.668 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2297 09-29T04:13:26.548 807 2513 D : [(ApiServerImpl.kt:79):updateContainerStatus] updateContainerStatus Running(containerId=ccqg6a92mck4me8ermo0, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=com.samsung.android.sdk.iap.v6.sample1)
+)
+, 18446 09-29T13:14:00.684 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2297 09-29T04:13:26.548 807 2513 D : [(ApiServerImpl.kt:79):updateContainerStatus] updateContainerStatus Running(containerId=ccqg6a92mck4me8ermo0, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=com.samsung.android.sdk.iap.v6.sample1)
+
+, 18447 09-29T13:14:00.700 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2298 09-29T04:13:26.551 807 2487 D : [(ApiStatus.kt:32):onExit$suspendImpl] reserved---->
+)
+, 18448 09-29T13:14:00.716 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2298 09-29T04:13:26.551 807 2487 D : [(ApiStatus.kt:32):onExit$suspendImpl] reserved---->
+
+, 18449 09-29T13:14:00.732 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2299 09-29T04:13:26.552 807 2487 D : [(ApiStatus.kt:28):onEnter$suspendImpl] $---->running
+)
+, 18450 09-29T13:14:00.750 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2299 09-29T04:13:26.552 807 2487 D : [(ApiStatus.kt:28):onEnter$suspendImpl] $---->running
+
+, 18451 09-29T13:14:00.767 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2300 09-29T04:13:26.551 807 1335 D : [(ApiServerImpl.kt:35):emit] containerStatus : running
+)
+, 18452 09-29T13:14:00.784 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2300 09-29T04:13:26.551 807 1335 D : [(ApiServerImpl.kt:35):emit] containerStatus : running
+
+, 18453 09-29T13:14:00.800 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2301 09-29T04:13:26.588 807 1334 D : [(ServerModule.kt:34):log] HTTP Client : RESPONSE: 200 
+METHOD: HttpMethod(value=PUT)
+FROM: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+COMMON HEADERS
+-> Connection: keep-alive
+-> Content-Length: 28
+-> Content-Type: application/json
+-> Date: Thu, 29 Sep 2022 04:13:26 GMT
+-> Set-Cookie: AWSALBTG=Mf6dd2/93AqkL4AFwW6MZC8zg15L0zPENJ917UPMhkAV0hREqosjE5OsWU+1mQlRDC9bDhtSYVx5Kqy9tJ6DAVcK515sEqLtyZFlR4qDZjVBUy+15mjoa59VOHOBe27dBvDVU8mz4wkvjlLMUQRpB5D1/KsDl9uAfvTgS3oMJ2Ox; Expires=Thu, 06 Oct 2022 04:13:26 GMT; Path=/; AWSALBTGCORS=Mf6dd2/93AqkL4AFwW6MZC8zg15L0zPENJ917UPMhkAV0hREqosjE5OsWU+1mQlRDC9bDhtSYVx5Kqy9tJ6DAVcK515sEqLtyZFlR4qDZjVBUy+15mjoa59VOHOBe27dBvDVU8mz4wkvjlLMUQRpB5D1/KsDl9uAfvTgS3oMJ2Ox; Expires=Thu, 06 Oct 2022 04:13:26 GMT; Path=/; SameSite=None
+BODY Content-Type: application/json
+BODY START
+{"code":22000,"result":"Ok"}
+BODY END
+)
+, 18454 09-29T13:14:00.817 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2301 09-29T04:13:26.588 807 1334 D : [(ServerModule.kt:34):log] HTTP Client : RESPONSE: 200 
+METHOD: HttpMethod(value=PUT)
+FROM: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+COMMON HEADERS
+-> Connection: keep-alive
+-> Content-Length: 28
+-> Content-Type: application/json
+-> Date: Thu, 29 Sep 2022 04:13:26 GMT
+-> Set-Cookie: AWSALBTG=Mf6dd2/93AqkL4AFwW6MZC8zg15L0zPENJ917UPMhkAV0hREqosjE5OsWU+1mQlRDC9bDhtSYVx5Kqy9tJ6DAVcK515sEqLtyZFlR4qDZjVBUy+15mjoa59VOHOBe27dBvDVU8mz4wkvjlLMUQRpB5D1/KsDl9uAfvTgS3oMJ2Ox; Expires=Thu, 06 Oct 2022 04:13:26 GMT; Path=/; AWSALBTGCORS=Mf6dd2/93AqkL4AFwW6MZC8zg15L0zPENJ917UPMhkAV0hREqosjE5OsWU+1mQlRDC9bDhtSYVx5Kqy9tJ6DAVcK515sEqLtyZFlR4qDZjVBUy+15mjoa59VOHOBe27dBvDVU8mz4wkvjlLMUQRpB5D1/KsDl9uAfvTgS3oMJ2Ox; Expires=Thu, 06 Oct 2022 04:13:26 GMT; Path=/; SameSite=None
+BODY Content-Type: application/json
+BODY START
+{"code":22000,"result":"Ok"}
+BODY END
+
+, 18455 09-29T13:14:00.834 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2302 09-29T04:13:26.594 807 873 D : [(CombinedStatusState.kt:133):sendMonitoringData] response status : HttpResponse[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring, 200 ]
+)
+, 18456 09-29T13:14:00.851 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2302 09-29T04:13:26.594 807 873 D : [(CombinedStatusState.kt:133):sendMonitoringData] response status : HttpResponse[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring, 200 ]
+
+, 18457 09-29T13:14:00.868 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2303 09-29T04:13:26.595 807 873 D : [(CombinedStatusState.kt:126):sendMonitoringData] sendMonitoringData[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring] : MonitorData(containerId=ccqg6a92mck4me8ermo0, containerStatus=running, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, sessionStatus=ready)
+)
+, 18458 09-29T13:14:00.895 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2303 09-29T04:13:26.595 807 873 D : [(CombinedStatusState.kt:126):sendMonitoringData] sendMonitoringData[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring] : MonitorData(containerId=ccqg6a92mck4me8ermo0, containerStatus=running, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, sessionStatus=ready)
+
+, 18459 09-29T13:14:00.910 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2304 09-29T04:13:26.595 807 1335 D : [(ServerModule.kt:34):log] HTTP Client : REQUEST: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+METHOD: HttpMethod(value=PUT)
+COMMON HEADERS
+-> Accept: application/json
+-> Accept-Charset: UTF-8
+CONTENT HEADERS
+-> Content-Length: 145
+-> Content-Type: application/json
+BODY Content-Type: application/json
+BODY START
+{"container_id":"ccqg6a92mck4me8ermo0","container_status":"running","session_id":"36192c18-3280-4776-ad00-e9bd18315ba3","session_status":"ready"}
+BODY END
+)
+, 18460 09-29T13:14:00.928 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2304 09-29T04:13:26.595 807 1335 D : [(ServerModule.kt:34):log] HTTP Client : REQUEST: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+METHOD: HttpMethod(value=PUT)
+COMMON HEADERS
+-> Accept: application/json
+-> Accept-Charset: UTF-8
+CONTENT HEADERS
+-> Content-Length: 145
+-> Content-Type: application/json
+BODY Content-Type: application/json
+BODY START
+{"container_id":"ccqg6a92mck4me8ermo0","container_status":"running","session_id":"36192c18-3280-4776-ad00-e9bd18315ba3","session_status":"ready"}
+BODY END
+
+, 18461 09-29T13:14:00.951 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2305 09-29T04:13:26.617 807 2522 D : [(ForegroundAppCheckService.kt:39):onAccessibilityEvent] onAccessibilityEvent event info : EventType: TYPE_WINDOW_STATE_CHANGED; EventTime: 163552733; PackageName: com.samsung.android.sdk.iap.v6.sample1; MovementGranularity: 0; Action: 0; ContentChangeTypes: []; WindowChangeTypes: [] [ ClassName: android.widget.FrameLayout; Text: [Application icon]; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; Enabled: true; Password: false; Checked: false; FullScreen: false; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: 0; ScrollY: 0; MaxScrollX: 0; MaxScrollY: 0; ScrollDeltaX: -1; ScrollDeltaY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0
+)
+, 18462 09-29T13:14:00.967 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2305 09-29T04:13:26.617 807 2522 D : [(ForegroundAppCheckService.kt:39):onAccessibilityEvent] onAccessibilityEvent event info : EventType: TYPE_WINDOW_STATE_CHANGED; EventTime: 163552733; PackageName: com.samsung.android.sdk.iap.v6.sample1; MovementGranularity: 0; Action: 0; ContentChangeTypes: []; WindowChangeTypes: [] [ ClassName: android.widget.FrameLayout; Text: [Application icon]; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; Enabled: true; Password: false; Checked: false; FullScreen: false; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: 0; ScrollY: 0; MaxScrollX: 0; MaxScrollY: 0; ScrollDeltaX: -1; ScrollDeltaY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0
+
+, 18463 09-29T13:14:00.984 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2306 09-29T04:13:26.645 807 2487 D : [(ServerModule.kt:34):log] HTTP Client : RESPONSE: 200 
+METHOD: HttpMethod(value=PUT)
+FROM: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+COMMON HEADERS
+-> Connection: keep-alive
+-> Content-Length: 28
+-> Content-Type: application/json
+-> Date: Thu, 29 Sep 2022 04:13:26 GMT
+-> Set-Cookie: AWSALBTG=JGzyPh2oO6Nl1u8QL/tHP4eilN4wvx0eCCts4qv/llkQI9OEJYuqcpa0eYsQcME3YMXC7eGZE0xGQHEBnOkv6WalqqmiK9k/E4dz5uuY/wRK/LaClNMOkx6bjy1/HzHAjQ4BEsLPYRolQgZi4tIuVkNTC7PJCoaH2TuGHaMac1/U; Expires=Thu, 06 Oct 2022 04:13:26 GMT; Path=/; AWSALBTGCORS=JGzyPh2oO6Nl1u8QL/tHP4eilN4wvx0eCCts4qv/llkQI9OEJYuqcpa0eYsQcME3YMXC7eGZE0xGQHEBnOkv6WalqqmiK9k/E4dz5uuY/wRK/LaClNMOkx6bjy1/HzHAjQ4BEsLPYRolQgZi4tIuVkNTC7PJCoaH2TuGHaMac1/U; Expires=Thu, 06 Oct 2022 04:13:26 GMT; Path=/; SameSite=None
+BODY Content-Type: application/json
+BODY START
+{"code":22000,"result":"Ok"}
+BODY END
+)
+, 18464 09-29T13:14:01.000 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2306 09-29T04:13:26.645 807 2487 D : [(ServerModule.kt:34):log] HTTP Client : RESPONSE: 200 
+METHOD: HttpMethod(value=PUT)
+FROM: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+COMMON HEADERS
+-> Connection: keep-alive
+-> Content-Length: 28
+-> Content-Type: application/json
+-> Date: Thu, 29 Sep 2022 04:13:26 GMT
+-> Set-Cookie: AWSALBTG=JGzyPh2oO6Nl1u8QL/tHP4eilN4wvx0eCCts4qv/llkQI9OEJYuqcpa0eYsQcME3YMXC7eGZE0xGQHEBnOkv6WalqqmiK9k/E4dz5uuY/wRK/LaClNMOkx6bjy1/HzHAjQ4BEsLPYRolQgZi4tIuVkNTC7PJCoaH2TuGHaMac1/U; Expires=Thu, 06 Oct 2022 04:13:26 GMT; Path=/; AWSALBTGCORS=JGzyPh2oO6Nl1u8QL/tHP4eilN4wvx0eCCts4qv/llkQI9OEJYuqcpa0eYsQcME3YMXC7eGZE0xGQHEBnOkv6WalqqmiK9k/E4dz5uuY/wRK/LaClNMOkx6bjy1/HzHAjQ4BEsLPYRolQgZi4tIuVkNTC7PJCoaH2TuGHaMac1/U; Expires=Thu, 06 Oct 2022 04:13:26 GMT; Path=/; SameSite=None
+BODY Content-Type: application/json
+BODY START
+{"code":22000,"result":"Ok"}
+BODY END
+
+, 18465 09-29T13:14:01.017 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2307 09-29T04:13:26.649 807 2478 D : [(CombinedStatusState.kt:133):sendMonitoringData] response status : HttpResponse[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring, 200 ]
+)
+, 18466 09-29T13:14:01.034 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2307 09-29T04:13:26.649 807 2478 D : [(CombinedStatusState.kt:133):sendMonitoringData] response status : HttpResponse[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring, 200 ]
+
+, 18467 09-29T13:14:01.050 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2308 09-29T04:13:26.793 807 873 D : [(ForegroundAppCheckService.kt:39):onAccessibilityEvent] onAccessibilityEvent event info : EventType: TYPE_WINDOW_STATE_CHANGED; EventTime: 163552916; PackageName: com.samsung.android.sdk.iap.v6.sample1; MovementGranularity: 0; Action: 0; ContentChangeTypes: []; WindowChangeTypes: [] [ ClassName: com.samsung.android.sdk.iap.sample.activity.MainActivity; Text: [IAP6Sample]; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; Enabled: true; Password: false; Checked: false; FullScreen: true; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: 0; ScrollY: 0; MaxScrollX: 0; MaxScrollY: 0; ScrollDeltaX: -1; ScrollDeltaY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0
+)
+, 18468 09-29T13:14:01.067 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2308 09-29T04:13:26.793 807 873 D : [(ForegroundAppCheckService.kt:39):onAccessibilityEvent] onAccessibilityEvent event info : EventType: TYPE_WINDOW_STATE_CHANGED; EventTime: 163552916; PackageName: com.samsung.android.sdk.iap.v6.sample1; MovementGranularity: 0; Action: 0; ContentChangeTypes: []; WindowChangeTypes: [] [ ClassName: com.samsung.android.sdk.iap.sample.activity.MainActivity; Text: [IAP6Sample]; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; Enabled: true; Password: false; Checked: false; FullScreen: true; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: 0; ScrollY: 0; MaxScrollX: 0; MaxScrollY: 0; ScrollDeltaX: -1; ScrollDeltaY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0
+
+, 18469 09-29T13:14:01.083 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2309 09-29T04:13:26.794 807 984 D : [(ForegroundAppCheckService.kt:46):onAccessibilityEvent] foreground package name : com.samsung.android.sdk.iap.v6.sample1
+)
+, 18470 09-29T13:14:01.099 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2309 09-29T04:13:26.794 807 984 D : [(ForegroundAppCheckService.kt:46):onAccessibilityEvent] foreground package name : com.samsung.android.sdk.iap.v6.sample1
+
+, 18471 09-29T13:14:01.116 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2310 09-29T04:13:26.944 807 2590 D : [(UseCase.kt:51):invokeSuspend] GetMediaVolumeLevelTask[A7FDB53] SUCCESS ++++++++++++++++++++
+)
+, 18472 09-29T13:14:01.133 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2310 09-29T04:13:26.944 807 2590 D : [(UseCase.kt:51):invokeSuspend] GetMediaVolumeLevelTask[A7FDB53] SUCCESS ++++++++++++++++++++
+
+, 18473 09-29T13:14:01.149 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2311 09-29T04:13:26.945 807 2590 D : [(UseCase.kt:76):printData] GetMediaVolumeLevelTask[A7FDB53] 15
+)
+, 18474 09-29T13:14:01.166 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2311 09-29T04:13:26.945 807 2590 D : [(UseCase.kt:76):printData] GetMediaVolumeLevelTask[A7FDB53] 15
+
+, 18475 09-29T13:14:01.183 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2312 09-29T04:13:26.945 807 2590 D : [(UseCase.kt:53):invokeSuspend] GetMediaVolumeLevelTask[A7FDB53] SUCCESS --------------------
+)
+, 18476 09-29T13:14:01.200 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2312 09-29T04:13:26.945 807 2590 D : [(UseCase.kt:53):invokeSuspend] GetMediaVolumeLevelTask[A7FDB53] SUCCESS --------------------
+
+, 18477 09-29T13:14:01.217 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2313 09-29T04:13:26.946 807 2590 E : [(DeviceServerImpl.kt:262):response] connectedConnections is null
+)
+, 18478 09-29T13:14:01.233 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2313 09-29T04:13:26.946 807 2590 E : [(DeviceServerImpl.kt:262):response] connectedConnections is null
+
+, 18479 09-29T13:14:01.249 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2314 09-29T04:13:27.026 807 981 D : [(ControlService.kt:262):emit] iapMessage response: {"API":"getOwnedList","THIRD_PARTY_NAME":"com.samsung.android.sdk.iap.v6.sample1","ITEM_TYPE":"all","NEXT_PAGING_INDEX":1,"OPERATION_MODE":0}
+)
+, 18480 09-29T13:14:01.265 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2314 09-29T04:13:27.026 807 981 D : [(ControlService.kt:262):emit] iapMessage response: {"API":"getOwnedList","THIRD_PARTY_NAME":"com.samsung.android.sdk.iap.v6.sample1","ITEM_TYPE":"all","NEXT_PAGING_INDEX":1,"OPERATION_MODE":0}
+
+, 18481 09-29T13:14:01.283 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2315 09-29T04:13:27.026 807 2513 E : [(DeviceServerImpl.kt:262):response] connectedConnections is null
+)
+, 18482 09-29T13:14:01.298 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2315 09-29T04:13:27.026 807 2513 E : [(DeviceServerImpl.kt:262):response] connectedConnections is null
+
+, 18483 09-29T13:14:01.316 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2316 09-29T04:13:32.079 807 2513 D : [(ForegroundAppCheckService.kt:39):onAccessibilityEvent] onAccessibilityEvent event info : EventType: TYPE_WINDOW_STATE_CHANGED; EventTime: 163558198; PackageName: com.samsung.android.sdk.iap.v6.sample1; MovementGranularity: 0; Action: 0; ContentChangeTypes: []; WindowChangeTypes: [] [ ClassName: android.app.Dialog; Text: [Couldn't complete purchase, Payment cancelled., OK]; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; Enabled: true; Password: false; Checked: false; FullScreen: false; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: 0; ScrollY: 0; MaxScrollX: 0; MaxScrollY: 0; ScrollDeltaX: -1; ScrollDeltaY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0
+)
+, 18484 09-29T13:14:01.332 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2316 09-29T04:13:32.079 807 2513 D : [(ForegroundAppCheckService.kt:39):onAccessibilityEvent] onAccessibilityEvent event info : EventType: TYPE_WINDOW_STATE_CHANGED; EventTime: 163558198; PackageName: com.samsung.android.sdk.iap.v6.sample1; MovementGranularity: 0; Action: 0; ContentChangeTypes: []; WindowChangeTypes: [] [ ClassName: android.app.Dialog; Text: [Couldn't complete purchase, Payment cancelled., OK]; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; Enabled: true; Password: false; Checked: false; FullScreen: false; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: 0; ScrollY: 0; MaxScrollX: 0; MaxScrollY: 0; ScrollDeltaX: -1; ScrollDeltaY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0
+
+, 18485 09-29T13:14:01.348 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2317 09-29T04:13:32.098 807 2513 D : [(ForegroundAppCheckService.kt:39):onAccessibilityEvent] onAccessibilityEvent event info : EventType: TYPE_WINDOW_STATE_CHANGED; EventTime: 163558222; PackageName: com.samsung.android.sdk.iap.v6.sample1; MovementGranularity: 0; Action: 0; ContentChangeTypes: []; WindowChangeTypes: [] [ ClassName: com.samsung.android.sdk.iap.lib.activity.DialogActivity; Text: [IAP6Sample]; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; Enabled: true; Password: false; Checked: false; FullScreen: true; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: 0; ScrollY: 0; MaxScrollX: 0; MaxScrollY: 0; ScrollDeltaX: -1; ScrollDeltaY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0
+)
+, 18486 09-29T13:14:01.365 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2317 09-29T04:13:32.098 807 2513 D : [(ForegroundAppCheckService.kt:39):onAccessibilityEvent] onAccessibilityEvent event info : EventType: TYPE_WINDOW_STATE_CHANGED; EventTime: 163558222; PackageName: com.samsung.android.sdk.iap.v6.sample1; MovementGranularity: 0; Action: 0; ContentChangeTypes: []; WindowChangeTypes: [] [ ClassName: com.samsung.android.sdk.iap.lib.activity.DialogActivity; Text: [IAP6Sample]; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; Enabled: true; Password: false; Checked: false; FullScreen: true; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: 0; ScrollY: 0; MaxScrollX: 0; MaxScrollY: 0; ScrollDeltaX: -1; ScrollDeltaY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0
+
+, 18487 09-29T13:14:01.383 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2318 09-29T04:13:32.099 807 981 D : [(ForegroundAppCheckService.kt:46):onAccessibilityEvent] foreground package name : com.samsung.android.sdk.iap.v6.sample1
+)
+, 18488 09-29T13:14:01.400 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2318 09-29T04:13:32.099 807 981 D : [(ForegroundAppCheckService.kt:46):onAccessibilityEvent] foreground package name : com.samsung.android.sdk.iap.v6.sample1
+
+, 18489 09-29T13:14:01.416 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2319 09-29T04:13:32.224 807 981 I : [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+)
+, 18490 09-29T13:14:01.433 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2319 09-29T04:13:32.224 807 981 I : [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+
+, 18491 09-29T13:14:01.449 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2320 09-29T04:13:32.225 807 981 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+)
+, 18492 09-29T13:14:01.465 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2320 09-29T04:13:32.225 807 981 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+
+, 18493 09-29T13:14:01.482 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2321 09-29T04:13:32.225 807 2513 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+)
+, 18494 09-29T13:14:01.500 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2321 09-29T04:13:32.225 807 2513 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+
+, 18495 09-29T13:14:01.515 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2322 09-29T04:13:42.229 807 2478 I : [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+)
+, 18496 09-29T13:14:01.532 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2322 09-29T04:13:42.229 807 2478 I : [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+
+, 18497 09-29T13:14:01.554 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2323 09-29T04:13:42.230 807 1335 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+)
+, 18498 09-29T13:14:01.570 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2323 09-29T04:13:42.230 807 1335 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+
+, 18499 09-29T13:14:01.587 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2324 09-29T04:13:42.230 807 981 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+)
+, 18500 09-29T13:14:01.604 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2324 09-29T04:13:42.230 807 981 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+
+, 18501 09-29T13:14:01.622 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2325 09-29T04:13:50.503 807 2478 D : [(CombinedStatusState.kt:52):invokeSuspend] intervalStatusFlow emit
+)
+, 18502 09-29T13:14:01.639 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2325 09-29T04:13:50.503 807 2478 D : [(CombinedStatusState.kt:52):invokeSuspend] intervalStatusFlow emit
+
+, 18503 09-29T13:14:01.656 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2326 09-29T04:13:50.503 807 2478 D : [(CombinedStatusState.kt:126):sendMonitoringData] sendMonitoringData[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring] : MonitorData(containerId=ccqg6a92mck4me8ermo0, containerStatus=running, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, sessionStatus=ready)
+)
+, 18504 09-29T13:14:01.673 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2326 09-29T04:13:50.503 807 2478 D : [(CombinedStatusState.kt:126):sendMonitoringData] sendMonitoringData[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring] : MonitorData(containerId=ccqg6a92mck4me8ermo0, containerStatus=running, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, sessionStatus=ready)
+
+, 18505 09-29T13:14:01.694 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2327 09-29T04:13:50.505 807 1335 D : [(ServerModule.kt:34):log] HTTP Client : REQUEST: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+METHOD: HttpMethod(value=PUT)
+COMMON HEADERS
+-> Accept: application/json
+-> Accept-Charset: UTF-8
+CONTENT HEADERS
+-> Content-Length: 145
+-> Content-Type: application/json
+BODY Content-Type: application/json
+BODY START
+{"container_id":"ccqg6a92mck4me8ermo0","container_status":"running","session_id":"36192c18-3280-4776-ad00-e9bd18315ba3","session_status":"ready"}
+BODY END
+)
+, 18506 09-29T13:14:01.710 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2327 09-29T04:13:50.505 807 1335 D : [(ServerModule.kt:34):log] HTTP Client : REQUEST: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+METHOD: HttpMethod(value=PUT)
+COMMON HEADERS
+-> Accept: application/json
+-> Accept-Charset: UTF-8
+CONTENT HEADERS
+-> Content-Length: 145
+-> Content-Type: application/json
+BODY Content-Type: application/json
+BODY START
+{"container_id":"ccqg6a92mck4me8ermo0","container_status":"running","session_id":"36192c18-3280-4776-ad00-e9bd18315ba3","session_status":"ready"}
+BODY END
+
+, 18507 09-29T13:14:01.727 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2328 09-29T04:13:50.526 807 2513 D : [(ServerModule.kt:34):log] HTTP Client : RESPONSE: 200 
+METHOD: HttpMethod(value=PUT)
+FROM: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+COMMON HEADERS
+-> Connection: keep-alive
+-> Content-Length: 28
+-> Content-Type: application/json
+-> Date: Thu, 29 Sep 2022 04:13:50 GMT
+-> Set-Cookie: AWSALBTG=WvvFvT//PlsE4t/qTX761OHDsZsv2SiDQYsqQVVaC7BMo5bNENmbav1NvFWRslGFrZ81DfiDGbiEy/1NFKBP5jyqvijUTIIkPvJiOMWgKP5os085vUNwZVgVf+nHZ/66/2yaWMzB/LDFEVaimyIWcNC86DojmBwlAhIoeKZVRbrn; Expires=Thu, 06 Oct 2022 04:13:50 GMT; Path=/; AWSALBTGCORS=WvvFvT//PlsE4t/qTX761OHDsZsv2SiDQYsqQVVaC7BMo5bNENmbav1NvFWRslGFrZ81DfiDGbiEy/1NFKBP5jyqvijUTIIkPvJiOMWgKP5os085vUNwZVgVf+nHZ/66/2yaWMzB/LDFEVaimyIWcNC86DojmBwlAhIoeKZVRbrn; Expires=Thu, 06 Oct 2022 04:13:50 GMT; Path=/; SameSite=None
+BODY Content-Type: application/json
+BODY START
+{"code":22000,"result":"Ok"}
+BODY END
+)
+, 18508 09-29T13:14:01.746 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2328 09-29T04:13:50.526 807 2513 D : [(ServerModule.kt:34):log] HTTP Client : RESPONSE: 200 
+METHOD: HttpMethod(value=PUT)
+FROM: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+COMMON HEADERS
+-> Connection: keep-alive
+-> Content-Length: 28
+-> Content-Type: application/json
+-> Date: Thu, 29 Sep 2022 04:13:50 GMT
+-> Set-Cookie: AWSALBTG=WvvFvT//PlsE4t/qTX761OHDsZsv2SiDQYsqQVVaC7BMo5bNENmbav1NvFWRslGFrZ81DfiDGbiEy/1NFKBP5jyqvijUTIIkPvJiOMWgKP5os085vUNwZVgVf+nHZ/66/2yaWMzB/LDFEVaimyIWcNC86DojmBwlAhIoeKZVRbrn; Expires=Thu, 06 Oct 2022 04:13:50 GMT; Path=/; AWSALBTGCORS=WvvFvT//PlsE4t/qTX761OHDsZsv2SiDQYsqQVVaC7BMo5bNENmbav1NvFWRslGFrZ81DfiDGbiEy/1NFKBP5jyqvijUTIIkPvJiOMWgKP5os085vUNwZVgVf+nHZ/66/2yaWMzB/LDFEVaimyIWcNC86DojmBwlAhIoeKZVRbrn; Expires=Thu, 06 Oct 2022 04:13:50 GMT; Path=/; SameSite=None
+BODY Content-Type: application/json
+BODY START
+{"code":22000,"result":"Ok"}
+BODY END
+
+, 18509 09-29T13:14:01.764 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2329 09-29T04:13:50.527 807 2513 D : [(CombinedStatusState.kt:133):sendMonitoringData] response status : HttpResponse[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring, 200 ]
+)
+, 18510 09-29T13:14:01.780 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2329 09-29T04:13:50.527 807 2513 D : [(CombinedStatusState.kt:133):sendMonitoringData] response status : HttpResponse[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring, 200 ]
+
+, 18511 09-29T13:14:01.797 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2330 09-29T04:13:52.231 807 2478 I : [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+)
+, 18512 09-29T13:14:01.814 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2330 09-29T04:13:52.231 807 2478 I : [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+
+, 18513 09-29T13:14:01.830 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2331 09-29T04:13:52.231 807 2478 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+)
+, 18514 09-29T13:14:01.848 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2331 09-29T04:13:52.231 807 2478 D : [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+
+, 18515 09-29T13:14:01.865 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2332 09-29T04:13:52.231 807 984 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+)
+, 18516 09-29T13:14:01.881 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2332 09-29T04:13:52.231 807 984 D : [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+
+, 18517 09-29T13:14:01.897 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2333 09-29T04:13:58.110 807 1334 I : [(DeviceRoute.kt:31):invokeSuspend] /ws/device Join [Connection(session=io.ktor.server.websocket.DelegatedDefaultWebSocketServerSession@b273192)]
+)
+, 18518 09-29T13:14:01.914 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2333 09-29T04:13:58.110 807 1334 I : [(DeviceRoute.kt:31):invokeSuspend] /ws/device Join [Connection(session=io.ktor.server.websocket.DelegatedDefaultWebSocketServerSession@b273192)]
+
+, 18519 09-29T13:14:01.931 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2334 09-29T04:13:58.111 807 1334 I : [(LoggerRoute.kt:32):invokeSuspend] /ws/logger Join Connection(session=io.ktor.server.websocket.DelegatedDefaultWebSocketServerSession@9b6c763)!
+)
+, 18520 09-29T13:14:01.948 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2334 09-29T04:13:58.111 807 1334 I : [(LoggerRoute.kt:32):invokeSuspend] /ws/logger Join Connection(session=io.ktor.server.websocket.DelegatedDefaultWebSocketServerSession@9b6c763)!
+
+, 18521 09-29T13:14:01.965 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=prev log : 2335 09-29T04:13:58.235 807 873 D : [(DeviceServerImpl.kt:181):responseJoinCompleteWithDebug] -> [(DeviceServerImpl.kt:336):updateSessionStatus] updateSessionStatus : connected
+)
+, 18522 09-29T13:14:01.982 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: prev log : 2335 09-29T04:13:58.235 807 873 D : [(DeviceServerImpl.kt:181):responseJoinCompleteWithDebug] -> [(DeviceServerImpl.kt:336):updateSessionStatus] updateSessionStatus : connected
+
+, 18523 09-29T13:14:01.999 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(ServerModule.kt:34):log] HTTP Client : RESPONSE: 200 
+METHOD: HttpMethod(value=PUT)
+FROM: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+COMMON HEADERS
+-> Connection: keep-alive
+-> Content-Length: 28
+-> Content-Type: application/json
+-> Date: Thu, 29 Sep 2022 04:13:58 GMT
+-> Set-Cookie: AWSALBTG=6fvt+1wuBsVNz5VSyIJ2KP8pdwKP7HLzedBvDchYR8icQRakv2nlHm4eUH6xscGRJL6/m2CCC7TA+1tHpVtGXthSJpUCUr2FOjqPymJ/xgjYreOcEepofGRTTIlwYDtb7BZCa0WoLDwg/x6Zwq1iZPaut1PLq+E+LrsmY/Rf/OeA; Expires=Thu, 06 Oct 2022 04:13:58 GMT; Path=/; AWSALBTGCORS=6fvt+1wuBsVNz5VSyIJ2KP8pdwKP7HLzedBvDchYR8icQRakv2nlHm4eUH6xscGRJL6/m2CCC7TA+1tHpVtGXthSJpUCUr2FOjqPymJ/xgjYreOcEepofGRTTIlwYDtb7BZCa0WoLDwg/x6Zwq1iZPaut1PLq+E+LrsmY/Rf/OeA; Expires=Thu, 06 Oct 2022 04:13:58 GMT; Path=/; SameSite=None
+BODY Content-Type: application/json
+BODY START
+{"code":22000,"result":"Ok"}
+BODY END)
+, 18524 09-29T13:14:02.016 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(ServerModule.kt:34):log] HTTP Client : RESPONSE: 200 
+METHOD: HttpMethod(value=PUT)
+FROM: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+COMMON HEADERS
+-> Connection: keep-alive
+-> Content-Length: 28
+-> Content-Type: application/json
+-> Date: Thu, 29 Sep 2022 04:13:58 GMT
+-> Set-Cookie: AWSALBTG=6fvt+1wuBsVNz5VSyIJ2KP8pdwKP7HLzedBvDchYR8icQRakv2nlHm4eUH6xscGRJL6/m2CCC7TA+1tHpVtGXthSJpUCUr2FOjqPymJ/xgjYreOcEepofGRTTIlwYDtb7BZCa0WoLDwg/x6Zwq1iZPaut1PLq+E+LrsmY/Rf/OeA; Expires=Thu, 06 Oct 2022 04:13:58 GMT; Path=/; AWSALBTGCORS=6fvt+1wuBsVNz5VSyIJ2KP8pdwKP7HLzedBvDchYR8icQRakv2nlHm4eUH6xscGRJL6/m2CCC7TA+1tHpVtGXthSJpUCUr2FOjqPymJ/xgjYreOcEepofGRTTIlwYDtb7BZCa0WoLDwg/x6Zwq1iZPaut1PLq+E+LrsmY/Rf/OeA; Expires=Thu, 06 Oct 2022 04:13:58 GMT; Path=/; SameSite=None
+BODY Content-Type: application/json
+BODY START
+{"code":22000,"result":"Ok"}
+BODY END
+, 18525 09-29T13:14:02.033 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(CombinedStatusState.kt:133):sendMonitoringData] response status : HttpResponse[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring, 200 ])
+, 18526 09-29T13:14:02.049 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(CombinedStatusState.kt:133):sendMonitoringData] response status : HttpResponse[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring, 200 ]
+, 18527 09-29T13:14:02.066 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(CombinedStatusState.kt:126):sendMonitoringData] sendMonitoringData[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring] : MonitorData(containerId=ccqg6a92mck4me8ermo0, containerStatus=running, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, sessionStatus=resumed))
+, 18528 09-29T13:14:02.083 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(CombinedStatusState.kt:126):sendMonitoringData] sendMonitoringData[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring] : MonitorData(containerId=ccqg6a92mck4me8ermo0, containerStatus=running, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, sessionStatus=resumed)
+, 18529 09-29T13:14:02.098 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(ServerModule.kt:34):log] HTTP Client : REQUEST: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+METHOD: HttpMethod(value=PUT)
+COMMON HEADERS
+-> Accept: application/json
+-> Accept-Charset: UTF-8
+CONTENT HEADERS
+-> Content-Length: 147
+-> Content-Type: application/json
+BODY Content-Type: application/json
+BODY START
+{"container_id":"ccqg6a92mck4me8ermo0","container_status":"running","session_id":"36192c18-3280-4776-ad00-e9bd18315ba3","session_status":"resumed"}
+BODY END)
+, 18530 09-29T13:14:02.115 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(ServerModule.kt:34):log] HTTP Client : REQUEST: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+METHOD: HttpMethod(value=PUT)
+COMMON HEADERS
+-> Accept: application/json
+-> Accept-Charset: UTF-8
+CONTENT HEADERS
+-> Content-Length: 147
+-> Content-Type: application/json
+BODY Content-Type: application/json
+BODY START
+{"container_id":"ccqg6a92mck4me8ermo0","container_status":"running","session_id":"36192c18-3280-4776-ad00-e9bd18315ba3","session_status":"resumed"}
+BODY END
+, 18531 09-29T13:14:02.132 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(ServerModule.kt:34):log] HTTP Client : RESPONSE: 200 
+METHOD: HttpMethod(value=PUT)
+FROM: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+COMMON HEADERS
+-> Connection: keep-alive
+-> Content-Length: 28
+-> Content-Type: application/json
+-> Date: Thu, 29 Sep 2022 04:13:58 GMT
+-> Set-Cookie: AWSALBTG=dbGtQV43idi/65l2pQa7C9WmJ5x6CH2/URW+hty2o8Vh5XIDxI13EWBdvrAJEMH8qcr2CwPFezkzEvqEHxqQgz9pyy+89Eo3cAVueD76Z6Mu7fDBaxboDjxM1e0WuFwTEtiw+sdeurpYczwgfjiMxwlrhKoQy4goxTK3ZsDBM4R5; Expires=Thu, 06 Oct 2022 04:13:58 GMT; Path=/; AWSALBTGCORS=dbGtQV43idi/65l2pQa7C9WmJ5x6CH2/URW+hty2o8Vh5XIDxI13EWBdvrAJEMH8qcr2CwPFezkzEvqEHxqQgz9pyy+89Eo3cAVueD76Z6Mu7fDBaxboDjxM1e0WuFwTEtiw+sdeurpYczwgfjiMxwlrhKoQy4goxTK3ZsDBM4R5; Expires=Thu, 06 Oct 2022 04:13:58 GMT; Path=/; SameSite=None
+BODY Content-Type: application/json
+BODY START
+{"code":22000,"result":"Ok"}
+BODY END)
+, 18532 09-29T13:14:02.149 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(ServerModule.kt:34):log] HTTP Client : RESPONSE: 200 
+METHOD: HttpMethod(value=PUT)
+FROM: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+COMMON HEADERS
+-> Connection: keep-alive
+-> Content-Length: 28
+-> Content-Type: application/json
+-> Date: Thu, 29 Sep 2022 04:13:58 GMT
+-> Set-Cookie: AWSALBTG=dbGtQV43idi/65l2pQa7C9WmJ5x6CH2/URW+hty2o8Vh5XIDxI13EWBdvrAJEMH8qcr2CwPFezkzEvqEHxqQgz9pyy+89Eo3cAVueD76Z6Mu7fDBaxboDjxM1e0WuFwTEtiw+sdeurpYczwgfjiMxwlrhKoQy4goxTK3ZsDBM4R5; Expires=Thu, 06 Oct 2022 04:13:58 GMT; Path=/; AWSALBTGCORS=dbGtQV43idi/65l2pQa7C9WmJ5x6CH2/URW+hty2o8Vh5XIDxI13EWBdvrAJEMH8qcr2CwPFezkzEvqEHxqQgz9pyy+89Eo3cAVueD76Z6Mu7fDBaxboDjxM1e0WuFwTEtiw+sdeurpYczwgfjiMxwlrhKoQy4goxTK3ZsDBM4R5; Expires=Thu, 06 Oct 2022 04:13:58 GMT; Path=/; SameSite=None
+BODY Content-Type: application/json
+BODY START
+{"code":22000,"result":"Ok"}
+BODY END
+, 18533 09-29T13:14:02.166 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(CombinedStatusState.kt:133):sendMonitoringData] response status : HttpResponse[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring, 200 ])
+, 18534 09-29T13:14:02.182 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(CombinedStatusState.kt:133):sendMonitoringData] response status : HttpResponse[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring, 200 ]
+, 18535 09-29T13:14:02.199 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=I/ControlServer: [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker)
+, 18536 09-29T13:14:02.216 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: I/ControlServer: [(WakeUpServerWorker.kt:24):invokeSuspend] Worker:WakeUpServerWorker
+, 18537 09-29T13:14:02.232 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running)
+, 18538 09-29T13:14:02.249 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(ServiceUtil.kt:13):isServiceRunning] com.samsung.android.game.cloudgame.service.ControlService is already running
+, 18539 09-29T13:14:02.266 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms)
+, 18540 09-29T13:14:02.282 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(WakeUpServerWorker.kt:38):setWork] WakeUpServerWorker will be executed after : 10000 ms
+, 18541 09-29T13:14:02.840 11414 11463 D : [(Merge.kt:218):invokeSuspend] handover waiting---
+, 18542 09-29T13:14:02.863 11414 11463 D : [(AnboxWebStreamViewModel.kt:227):emit] deviceServerConnected: true
+, 18543 09-29T13:14:02.879 11414 11463 D : [(AnboxWebStreamViewModel.kt:228):emit] currentConnectionState: true / true / true = false
+, 18544 09-29T13:14:04.482 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(ControlService.kt:262):emit] iapMessage response: {"API":"getProductsDetails","THIRD_PARTY_NAME":"com.samsung.android.sdk.iap.v6.sample1","ITEM_ID":"consumable,non-consumable,ARS,ARS2","NEXT_PAGING_INDEX":1,"OPERATION_MODE":0})
+, 18545 09-29T13:14:04.499 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(ControlService.kt:262):emit] iapMessage response: {"API":"getProductsDetails","THIRD_PARTY_NAME":"com.samsung.android.sdk.iap.v6.sample1","ITEM_ID":"consumable,non-consumable,ARS,ARS2","NEXT_PAGING_INDEX":1,"OPERATION_MODE":0}
+, 18546 09-29T13:14:04.521 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/device response: IapMessage(message={"API":"getProductsDetails","THIRD_PARTY_NAME":"com.samsung.android.sdk.iap.v6.sample1","ITEM_ID":"consumable,non-consumable,ARS,ARS2","NEXT_PAGING_INDEX":1,"OPERATION_MODE":0})
+, 18547 09-29T13:14:04.542 11414 11463 D : [(AnboxWebStreamViewModel.kt:521):tryEmitRespondedIapMessage] iapMessage : {"API":"getProductsDetails","THIRD_PARTY_NAME":"com.samsung.android.sdk.iap.v6.sample1","ITEM_ID":"consumable,non-consumable,ARS,ARS2","NEXT_PAGING_INDEX":1,"OPERATION_MODE":0}
+, 18548 09-29T13:14:04.564 11414 11463 D : [(AnboxWebStreamViewModel.kt:239):emit] IapMessage ResponseFlow : IapMessageStatus(message={"API":"getProductsDetails","THIRD_PARTY_NAME":"com.samsung.android.sdk.iap.v6.sample1","ITEM_ID":"consumable,non-consumable,ARS,ARS2","NEXT_PAGING_INDEX":1,"OPERATION_MODE":0})
+, 18549 09-29T13:14:04.585 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(ForegroundAppCheckService.kt:39):onAccessibilityEvent] onAccessibilityEvent event info : EventType: TYPE_WINDOW_STATE_CHANGED; EventTime: 163590911; PackageName: com.samsung.android.sdk.iap.v6.sample1; MovementGranularity: 0; Action: 0; ContentChangeTypes: []; WindowChangeTypes: [] [ ClassName: com.samsung.android.sdk.iap.sample.activity.ProductsDetailsActivity; Text: [Product Details]; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; Enabled: true; Password: false; Checked: false; FullScreen: true; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: 0; ScrollY: 0; MaxScrollX: 0; MaxScrollY: 0; ScrollDeltaX: -1; ScrollDeltaY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0)
+, 18550 09-29T13:14:04.621 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(ForegroundAppCheckService.kt:39):onAccessibilityEvent] onAccessibilityEvent event info : EventType: TYPE_WINDOW_STATE_CHANGED; EventTime: 163590911; PackageName: com.samsung.android.sdk.iap.v6.sample1; MovementGranularity: 0; Action: 0; ContentChangeTypes: []; WindowChangeTypes: [] [ ClassName: com.samsung.android.sdk.iap.sample.activity.ProductsDetailsActivity; Text: [Product Details]; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; Enabled: true; Password: false; Checked: false; FullScreen: true; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: 0; ScrollY: 0; MaxScrollX: 0; MaxScrollY: 0; ScrollDeltaX: -1; ScrollDeltaY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0
+, 18551 09-29T13:14:04.646 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(ForegroundAppCheckService.kt:46):onAccessibilityEvent] foreground package name : com.samsung.android.sdk.iap.v6.sample1)
+, 18552 09-29T13:14:04.669 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(ForegroundAppCheckService.kt:46):onAccessibilityEvent] foreground package name : com.samsung.android.sdk.iap.v6.sample1
+, 18553 09-29T13:14:04.692 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(ApiServerImpl.kt:72):emit] sessionStatus : Resumed(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=com.samsung.android.sdk.iap.v6.sample1, isDebug=true))
+, 18554 09-29T13:14:04.709 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(ApiServerImpl.kt:72):emit] sessionStatus : Resumed(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=com.samsung.android.sdk.iap.v6.sample1, isDebug=true)
+, 18555 09-29T13:14:04.726 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(DeviceStatus.kt:22):onExit$suspendImpl] resumed---->)
+, 18556 09-29T13:14:04.744 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(DeviceStatus.kt:22):onExit$suspendImpl] resumed---->
+, 18557 09-29T13:14:04.761 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(DeviceStatus.kt:23):onExit$suspendImpl] $-------->Resumed(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=, isDebug=true))
+, 18558 09-29T13:14:04.780 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(DeviceStatus.kt:23):onExit$suspendImpl] $-------->Resumed(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=, isDebug=true)
+, 18559 09-29T13:14:04.797 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(DeviceStatus.kt:17):onEnter$suspendImpl] $---->resumed)
+, 18560 09-29T13:14:04.814 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(DeviceStatus.kt:17):onEnter$suspendImpl] $---->resumed
+, 18561 09-29T13:14:04.831 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(DeviceStatus.kt:18):onEnter$suspendImpl] $-------->Resumed(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=com.samsung.android.sdk.iap.v6.sample1, isDebug=true))
+, 18562 09-29T13:14:04.848 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(DeviceStatus.kt:18):onEnter$suspendImpl] $-------->Resumed(userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, packageName=, foregroundPackageName=com.samsung.android.sdk.iap.v6.sample1, isDebug=true)
+, 18563 09-29T13:14:04.864 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(CombinedStatusState.kt:126):sendMonitoringData] sendMonitoringData[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring] : MonitorData(containerId=ccqg6a92mck4me8ermo0, containerStatus=running, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, sessionStatus=resumed))
+, 18564 09-29T13:14:04.882 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(CombinedStatusState.kt:126):sendMonitoringData] sendMonitoringData[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring] : MonitorData(containerId=ccqg6a92mck4me8ermo0, containerStatus=running, userSessionId=36192c18-3280-4776-ad00-e9bd18315ba3, sessionStatus=resumed)
+, 18565 09-29T13:14:04.899 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(ServerModule.kt:34):log] HTTP Client : REQUEST: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+METHOD: HttpMethod(value=PUT)
+COMMON HEADERS
+-> Accept: application/json
+-> Accept-Charset: UTF-8
+CONTENT HEADERS
+-> Content-Length: 147
+-> Content-Type: application/json
+BODY Content-Type: application/json
+BODY START
+{"container_id":"ccqg6a92mck4me8ermo0","container_status":"running","session_id":"36192c18-3280-4776-ad00-e9bd18315ba3","session_status":"resumed"}
+BODY END)
+, 18566 09-29T13:14:04.916 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(ServerModule.kt:34):log] HTTP Client : REQUEST: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+METHOD: HttpMethod(value=PUT)
+COMMON HEADERS
+-> Accept: application/json
+-> Accept-Charset: UTF-8
+CONTENT HEADERS
+-> Content-Length: 147
+-> Content-Type: application/json
+BODY Content-Type: application/json
+BODY START
+{"container_id":"ccqg6a92mck4me8ermo0","container_status":"running","session_id":"36192c18-3280-4776-ad00-e9bd18315ba3","session_status":"resumed"}
+BODY END
+, 18567 09-29T13:14:04.936 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(ServerModule.kt:34):log] HTTP Client : RESPONSE: 200 
+METHOD: HttpMethod(value=PUT)
+FROM: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+COMMON HEADERS
+-> Connection: keep-alive
+-> Content-Length: 28
+-> Content-Type: application/json
+-> Date: Thu, 29 Sep 2022 04:14:04 GMT
+-> Set-Cookie: AWSALBTG=ZVHlSFv7gyif8j2fqhtVKhz5AfzwooJ0NjFIJaJeVrZpSsdG+ptttvle2fYgfIqr2b2QcEQlfCHFfAW4ZKnYxrQA2vE2jQpta0iddjeZ4QbvYLDMyFqJ2i2wSU/4G2ACLRwBm/Kc3N/21o7fWEq2iELOj1j8lK71Nea0OkroRpqw; Expires=Thu, 06 Oct 2022 04:14:04 GMT; Path=/; AWSALBTGCORS=ZVHlSFv7gyif8j2fqhtVKhz5AfzwooJ0NjFIJaJeVrZpSsdG+ptttvle2fYgfIqr2b2QcEQlfCHFfAW4ZKnYxrQA2vE2jQpta0iddjeZ4QbvYLDMyFqJ2i2wSU/4G2ACLRwBm/Kc3N/21o7fWEq2iELOj1j8lK71Nea0OkroRpqw; Expires=Thu, 06 Oct 2022 04:14:04 GMT; Path=/; SameSite=None
+BODY Content-Type: application/json
+BODY START
+{"code":22000,"result":"Ok"}
+BODY END)
+, 18568 09-29T13:14:04.954 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(ServerModule.kt:34):log] HTTP Client : RESPONSE: 200 
+METHOD: HttpMethod(value=PUT)
+FROM: http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring
+COMMON HEADERS
+-> Connection: keep-alive
+-> Content-Length: 28
+-> Content-Type: application/json
+-> Date: Thu, 29 Sep 2022 04:14:04 GMT
+-> Set-Cookie: AWSALBTG=ZVHlSFv7gyif8j2fqhtVKhz5AfzwooJ0NjFIJaJeVrZpSsdG+ptttvle2fYgfIqr2b2QcEQlfCHFfAW4ZKnYxrQA2vE2jQpta0iddjeZ4QbvYLDMyFqJ2i2wSU/4G2ACLRwBm/Kc3N/21o7fWEq2iELOj1j8lK71Nea0OkroRpqw; Expires=Thu, 06 Oct 2022 04:14:04 GMT; Path=/; AWSALBTGCORS=ZVHlSFv7gyif8j2fqhtVKhz5AfzwooJ0NjFIJaJeVrZpSsdG+ptttvle2fYgfIqr2b2QcEQlfCHFfAW4ZKnYxrQA2vE2jQpta0iddjeZ4QbvYLDMyFqJ2i2wSU/4G2ACLRwBm/Kc3N/21o7fWEq2iELOj1j8lK71Nea0OkroRpqw; Expires=Thu, 06 Oct 2022 04:14:04 GMT; Path=/; SameSite=None
+BODY Content-Type: application/json
+BODY START
+{"code":22000,"result":"Ok"}
+BODY END
+, 18569 09-29T13:14:04.972 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(CombinedStatusState.kt:133):sendMonitoringData] response status : HttpResponse[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring, 200 ])
+, 18570 09-29T13:14:04.990 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(CombinedStatusState.kt:133):sendMonitoringData] response status : HttpResponse[http://internal-k8s-cgdev-rminsvc-3eabae36f6-792877609.ap-northeast-2.elb.amazonaws.com/resource-manager/v1/anbox/monitoring, 200 ]
+, 18571 09-29T13:14:05.373 11414 11463 D : [(AnboxWebStreamViewModel.kt:527):onResult] iap response : {"STATUS_CODE":0,"ERROR_STRING":"","ERROR_DETAILS":"","RESULT_LIST":[{"mItemId":"consumable","mItemName":"Fuel","mItemPrice":1173,"mItemPriceString":"￦1,173","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Fuel","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"item","mConsumableYN":"Y","mFreeTrialPeriod":"","mSubscriptionDurationUnit":"","mSubscriptionDurationMultiplier":"","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0},{"mItemId":"non-consumable","mItemName":"Upgrade Spaceship","mItemPrice":1173,"mItemPriceString":"￦1,173","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Upgrade Spaceship","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"item","mConsumableYN":"N","mFreeTrialPeriod":"","mSubscriptionDurationUnit":"","mSubscriptionDurationMultiplier":"","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0},{"mItemId":"ARS","mItemName":"Infinite Fuel","mItemPrice":1086,"mItemPriceString":"￦1,086","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Infinite Fuel","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"subscription","mConsumableYN":"N","mFreeTrialPeriod":"0","mSubscriptionDurationUnit":"MONTH","mSubscriptionDurationMultiplier":"1","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0},{"mItemId":"ARS2","mItemName":"Premium Infinite Fuel","mItemPrice":2172,"mItemPriceString":"￦2,172","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Premium Infinite Fuel","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"subscription","mConsumableYN":"N","mFreeTrialPeriod":"0","mSubscriptionDurationUnit":"MONTH","mSubscriptionDurationMultiplier":"1","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0}]}
+, 18572 09-29T13:14:05.389 11414 11463 D : [(ControlServiceClient.kt:95):send] /ws/device request: IapMessage(message={"STATUS_CODE":0,"ERROR_STRING":"","ERROR_DETAILS":"","RESULT_LIST":[{"mItemId":"consumable","mItemName":"Fuel","mItemPrice":1173,"mItemPriceString":"￦1,173","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Fuel","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"item","mConsumableYN":"Y","mFreeTrialPeriod":"","mSubscriptionDurationUnit":"","mSubscriptionDurationMultiplier":"","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0},{"mItemId":"non-consumable","mItemName":"Upgrade Spaceship","mItemPrice":1173,"mItemPriceString":"￦1,173","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Upgrade Spaceship","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"item","mConsumableYN":"N","mFreeTrialPeriod":"","mSubscriptionDurationUnit":"","mSubscriptionDurationMultiplier":"","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0},{"mItemId":"ARS","mItemName":"Infinite Fuel","mItemPrice":1086,"mItemPriceString":"￦1,086","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Infinite Fuel","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"subscription","mConsumableYN":"N","mFreeTrialPeriod":"0","mSubscriptionDurationUnit":"MONTH","mSubscriptionDurationMultiplier":"1","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0},{"mItemId":"ARS2","mItemName":"Premium Infinite Fuel","mItemPrice":2172,"mItemPriceString":"￦2,172","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Premium Infinite Fuel","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"subscription","mConsumableYN":"N","mFreeTrialPeriod":"0","mSubscriptionDurationUnit":"MONTH","mSubscriptionDurationMultiplier":"1","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0}]})
+, 18573 09-29T13:14:05.449 11414 11463 D : [(ControlServiceClient.kt:55):emit] /ws/logger response: Log(message=D/ControlServer: [(ControlService.kt:256):emit] iapMessage request: {"STATUS_CODE":0,"ERROR_STRING":"","ERROR_DETAILS":"","RESULT_LIST":[{"mItemId":"consumable","mItemName":"Fuel","mItemPrice":1173,"mItemPriceString":"￦1,173","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Fuel","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"item","mConsumableYN":"Y","mFreeTrialPeriod":"","mSubscriptionDurationUnit":"","mSubscriptionDurationMultiplier":"","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0},{"mItemId":"non-consumable","mItemName":"Upgrade Spaceship","mItemPrice":1173,"mItemPriceString":"￦1,173","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Upgrade Spaceship","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"item","mConsumableYN":"N","mFreeTrialPeriod":"","mSubscriptionDurationUnit":"","mSubscriptionDurationMultiplier":"","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0},{"mItemId":"ARS","mItemName":"Infinite Fuel","mItemPrice":1086,"mItemPriceString":"￦1,086","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Infinite Fuel","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"subscription","mConsumableYN":"N","mFreeTrialPeriod":"0","mSubscriptionDurationUnit":"MONTH","mSubscriptionDurationMultiplier":"1","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0},{"mItemId":"ARS2","mItemName":"Premium Infinite Fuel","mItemPrice":2172,"mItemPriceString":"￦2,172","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Premium Infinite Fuel","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"subscription","mConsumableYN":"N","mFreeTrialPeriod":"0","mSubscriptionDurationUnit":"MONTH","mSubscriptionDurationMultiplier":"1","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0}]})
+, 18574 09-29T13:14:05.469 11414 11463 D : [(AnboxWebStreamActivity.kt:591):handleLogResponseEffect] ControlServer: D/ControlServer: [(ControlService.kt:256):emit] iapMessage request: {"STATUS_CODE":0,"ERROR_STRING":"","ERROR_DETAILS":"","RESULT_LIST":[{"mItemId":"consumable","mItemName":"Fuel","mItemPrice":1173,"mItemPriceString":"￦1,173","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Fuel","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"item","mConsumableYN":"Y","mFreeTrialPeriod":"","mSubscriptionDurationUnit":"","mSubscriptionDurationMultiplier":"","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0},{"mItemId":"non-consumable","mItemName":"Upgrade Spaceship","mItemPrice":1173,"mItemPriceString":"￦1,173","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Upgrade Spaceship","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"item","mConsumableYN":"N","mFreeTrialPeriod":"","mSubscriptionDurationUnit":"","mSubscriptionDurationMultiplier":"","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0},{"mItemId":"ARS","mItemName":"Infinite Fuel","mItemPrice":1086,"mItemPriceString":"￦1,086","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Infinite Fuel","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"subscription","mConsumableYN":"N","mFreeTrialPeriod":"0","mSubscriptionDurationUnit":"MONTH","mSubscriptionDurationMultiplier":"1","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0},{"mItemId":"ARS2","mItemName":"Premium Infinite Fuel","mItemPrice":2172,"mItemPriceString":"￦2,172","mCurrencyUnit":"￦","mCurrencyCode":"KRW","mItemDesc":"Premium Infinite Fuel","mItemImageUrl":"","mItemDownloadUrl":"","mReserved1":"","mReserved2":"","mType":"subscription","mConsumableYN":"N","mFreeTrialPeriod":"0","mSubscriptionDurationUnit":"MONTH","mSubscriptionDurationMultiplier":"1","mTieredSubscriptionYN":"N","mTieredPrice":"","mTieredPriceString":"","mTieredSubscriptionCount":"","mTieredSubscriptionDurationMultiplier":"","mTieredSubscriptionDurationUnit":"","mShowStartDate":0,"mShowEndDate":0}]}
+]

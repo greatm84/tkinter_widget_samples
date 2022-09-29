@@ -30,7 +30,7 @@ for col in columns:
 # sort column A content as int instead of strings
 table.column('A', type=int)
 
-for i in range(100000):
+for i in range(10000):
     table.insert('', 'end', iid=i,
                  values=(i, i) + tuple(i + 10 * j for j in range(2, 7)))
 

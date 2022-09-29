@@ -1,6 +1,6 @@
 # https://hansonminlearning.tistory.com/42
 
-path_to_zip_file = './appinfo.zip'
+path_to_zip_file = './sample.zip'
 directory_to_extract_to = './temp'
 
 import zipfile

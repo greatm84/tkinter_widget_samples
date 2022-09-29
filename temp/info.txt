@@ -1,0 +1,14 @@
+----------------------------------------------
+version : v34
+issueTime : 1664424851325
+model : SM-A7160
+os : 13
+resolution: 0x0
+sessionId : 36192c18-3280-4776-ad00-e9bd18315ba3
+packageName : com.samsung.android.sdk.iap.v6.sample1
+reporter : bhlee72yy
+reportType : MANUAL
+issueType : ETC
+issue : IAP description
+sessionTime(Sec) : 54
+----------------------------------------------

@@ -6,8 +6,13 @@ import tkinter as tk
 window = tk.Tk()
 listbox = ScrolledListbox(window, height=5)
 
-for i in range(999999):
-    listbox.listbox.insert('end', 'item {} has mnay lasdfklinabjsdfgoh'.format(i))
+app_log_path = './temp/applog.txt'
+
+with open(app_log_path, 'r', encoding="UTF-8") as f:
+    i = 0
+    for line in f:
+        listbox.listbox.insert('end', '{} : {}'.format(i, line))
+        i = i + 1
 
 listbox.pack(fill='both', expand=True)
 window.mainloop()
