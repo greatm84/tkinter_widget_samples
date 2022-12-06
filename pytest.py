@@ -1,7 +1,6 @@
 
+def get_time_str_area(line:str):
+    print(line)
 
-a_list = ['a','b','c']
 
-a, b, c = a_list
 
-print(a)

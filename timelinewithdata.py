@@ -1,8 +1,8 @@
 import tkinter as tk
 
 from ttkwidgets import TimeLine
-
-# time line is 0 - 10
+from datetime import datetime
+import time
 
 app_log_path = './temp/applog.txt'
 
@@ -98,7 +98,7 @@ with open(app_log_path, 'r', encoding="UTF-8") as f:
 timeline = TimeLine(
     window,
     categories={str(key): {"text": "{}".format(key)} for key in categories.keys()},
-    height=100, extend=True, finish=float(i)
+    height=300, extend=True, finish=float(i)
 )
 
 # for status_item in status_list:
